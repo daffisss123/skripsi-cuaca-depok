@@ -3,5 +3,5 @@ pandas
 numpy
 requests
 joblib
-scikit-learn
+scikit-learn==1.6.1
 tensorflow==2.21.0
