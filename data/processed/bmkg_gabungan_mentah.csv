@@ -1,0 +1,1102 @@
+Unnamed: 0,ID WMO,:  96753,Unnamed: 3,Unnamed: 4,sumber_file
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2024_04.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2024_04.xlsx
+,BUJUR,:  106.75000,,,bmkg_2024_04.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2024_04.xlsx
+,,,,,bmkg_2024_04.xlsx
+,,,,,bmkg_2024_04.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2024_04.xlsx
+03-04-2024,26.5,90,37.5,1,bmkg_2024_04.xlsx
+04-04-2024,27.8,84,7.1,0,bmkg_2024_04.xlsx
+05-04-2024,28.5,78,1.3,1,bmkg_2024_04.xlsx
+06-04-2024,28,83,,1,bmkg_2024_04.xlsx
+07-04-2024,28,77,,2,bmkg_2024_04.xlsx
+08-04-2024,28.1,78,70.5,1,bmkg_2024_04.xlsx
+09-04-2024,27.3,83,,1,bmkg_2024_04.xlsx
+10-04-2024,27.5,82,0,1,bmkg_2024_04.xlsx
+11-04-2024,27.8,83,0.2,2,bmkg_2024_04.xlsx
+12-04-2024,25.7,92,20.1,1,bmkg_2024_04.xlsx
+13-04-2024,27.4,83,20.2,1,bmkg_2024_04.xlsx
+14-04-2024,26.7,88,40.9,1,bmkg_2024_04.xlsx
+15-04-2024,28.1,83,27.2,2,bmkg_2024_04.xlsx
+16-04-2024,28.6,80,0,1,bmkg_2024_04.xlsx
+17-04-2024,27.1,85,0.8,1,bmkg_2024_04.xlsx
+18-04-2024,26.8,86,42.1,1,bmkg_2024_04.xlsx
+19-04-2024,26.3,89,52.5,2,bmkg_2024_04.xlsx
+20-04-2024,27.9,81,24.4,1,bmkg_2024_04.xlsx
+21-04-2024,26.4,91,0,1,bmkg_2024_04.xlsx
+22-04-2024,28,82,1,1,bmkg_2024_04.xlsx
+23-04-2024,26.6,89,31.9,1,bmkg_2024_04.xlsx
+24-04-2024,27.2,88,73,2,bmkg_2024_04.xlsx
+25-04-2024,26.4,89,31,2,bmkg_2024_04.xlsx
+26-04-2024,27.1,87,71.9,2,bmkg_2024_04.xlsx
+27-04-2024,27.2,85,0.8,2,bmkg_2024_04.xlsx
+28-04-2024,27.5,86,0,2,bmkg_2024_04.xlsx
+29-04-2024,28.8,82,4,1,bmkg_2024_04.xlsx
+30-04-2024,27.9,84,0.1,2,bmkg_2024_04.xlsx
+01-05-2024,27.4,90,86.7,2,bmkg_2024_04.xlsx
+02-05-2024,27.3,88,17.5,3,bmkg_2024_04.xlsx
+03-05-2024,27.3,86,17.8,2,bmkg_2024_04.xlsx
+,,,,,bmkg_2024_04.xlsx
+,,,,,bmkg_2024_04.xlsx
+,,,,,bmkg_2024_04.xlsx
+KETERANGAN:,,,,,bmkg_2024_04.xlsx
+8888: Data tidak terukur,,,,,bmkg_2024_04.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2024_04.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2024_04.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2024_04.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2024_04.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2024_04.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2024_05.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2024_05.xlsx
+,BUJUR,:  106.75000,,,bmkg_2024_05.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2024_05.xlsx
+,,,,,bmkg_2024_05.xlsx
+,,,,,bmkg_2024_05.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2024_05.xlsx
+04-05-2024,26.4,87,27.5,1,bmkg_2024_05.xlsx
+05-05-2024,27.7,79,9.2,2,bmkg_2024_05.xlsx
+06-05-2024,27.5,79,,2,bmkg_2024_05.xlsx
+07-05-2024,28.3,78,,2,bmkg_2024_05.xlsx
+08-05-2024,27.5,81,,2,bmkg_2024_05.xlsx
+09-05-2024,28.2,79,2,2,bmkg_2024_05.xlsx
+10-05-2024,28.9,77,0.1,2,bmkg_2024_05.xlsx
+11-05-2024,27.4,84,,2,bmkg_2024_05.xlsx
+12-05-2024,28.6,78,1.6,3,bmkg_2024_05.xlsx
+13-05-2024,27.6,83,,3,bmkg_2024_05.xlsx
+14-05-2024,26.6,88,31.5,1,bmkg_2024_05.xlsx
+15-05-2024,28.7,75,0.9,3,bmkg_2024_05.xlsx
+16-05-2024,26.8,86,0.8,2,bmkg_2024_05.xlsx
+17-05-2024,26.9,85,109.3,2,bmkg_2024_05.xlsx
+18-05-2024,27.2,83,8.7,3,bmkg_2024_05.xlsx
+19-05-2024,26.8,88,38.8,2,bmkg_2024_05.xlsx
+20-05-2024,27.4,83,32.7,1,bmkg_2024_05.xlsx
+21-05-2024,27.9,83,,1,bmkg_2024_05.xlsx
+22-05-2024,28.2,81,2.2,2,bmkg_2024_05.xlsx
+23-05-2024,27,87,,2,bmkg_2024_05.xlsx
+24-05-2024,26.2,89,0.3,3,bmkg_2024_05.xlsx
+25-05-2024,25.6,93,146.6,1,bmkg_2024_05.xlsx
+26-05-2024,27.6,84,2.5,1,bmkg_2024_05.xlsx
+27-05-2024,27.8,80,,2,bmkg_2024_05.xlsx
+28-05-2024,28.3,81,2.3,1,bmkg_2024_05.xlsx
+29-05-2024,28.5,79,,1,bmkg_2024_05.xlsx
+30-05-2024,27.8,80,,1,bmkg_2024_05.xlsx
+31-05-2024,27.7,82,11.6,1,bmkg_2024_05.xlsx
+01-06-2024,26.4,89,0.2,1,bmkg_2024_05.xlsx
+02-06-2024,27.4,86,23.3,2,bmkg_2024_05.xlsx
+03-06-2024,26.3,91,9.8,1,bmkg_2024_05.xlsx
+,,,,,bmkg_2024_05.xlsx
+,,,,,bmkg_2024_05.xlsx
+,,,,,bmkg_2024_05.xlsx
+KETERANGAN:,,,,,bmkg_2024_05.xlsx
+8888: Data tidak terukur,,,,,bmkg_2024_05.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2024_05.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2024_05.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2024_05.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2024_05.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2024_05.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2024_06.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2024_06.xlsx
+,BUJUR,:  106.75000,,,bmkg_2024_06.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2024_06.xlsx
+,,,,,bmkg_2024_06.xlsx
+,,,,,bmkg_2024_06.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2024_06.xlsx
+04-06-2024,27,83,16.5,1,bmkg_2024_06.xlsx
+05-06-2024,27.7,79,0.8,1,bmkg_2024_06.xlsx
+06-06-2024,28.2,76,0,2,bmkg_2024_06.xlsx
+07-06-2024,27.5,77,0,2,bmkg_2024_06.xlsx
+08-06-2024,27.7,79,,2,bmkg_2024_06.xlsx
+09-06-2024,26.8,82,8888,2,bmkg_2024_06.xlsx
+10-06-2024,27.8,80,1,2,bmkg_2024_06.xlsx
+11-06-2024,26.3,87,18.8,1,bmkg_2024_06.xlsx
+12-06-2024,25.9,86,11.2,1,bmkg_2024_06.xlsx
+13-06-2024,27.4,84,32.5,1,bmkg_2024_06.xlsx
+14-06-2024,27,84,0.6,1,bmkg_2024_06.xlsx
+15-06-2024,27.5,83,35,2,bmkg_2024_06.xlsx
+16-06-2024,26.7,90,0.5,2,bmkg_2024_06.xlsx
+17-06-2024,27.6,83,24,2,bmkg_2024_06.xlsx
+18-06-2024,26.4,85,,1,bmkg_2024_06.xlsx
+19-06-2024,27.6,78,0,2,bmkg_2024_06.xlsx
+20-06-2024,27.5,72,,2,bmkg_2024_06.xlsx
+21-06-2024,27.1,79,,2,bmkg_2024_06.xlsx
+22-06-2024,27.1,78,0.6,2,bmkg_2024_06.xlsx
+23-06-2024,27.4,72,0,2,bmkg_2024_06.xlsx
+24-06-2024,28,75,,1,bmkg_2024_06.xlsx
+25-06-2024,26.1,83,,1,bmkg_2024_06.xlsx
+26-06-2024,27.6,78,5.6,1,bmkg_2024_06.xlsx
+27-06-2024,26.9,84,,1,bmkg_2024_06.xlsx
+28-06-2024,27.2,84,4.8,1,bmkg_2024_06.xlsx
+29-06-2024,25,90,0.5,2,bmkg_2024_06.xlsx
+30-06-2024,27.4,81,38.2,1,bmkg_2024_06.xlsx
+01-07-2024,26.5,86,,1,bmkg_2024_06.xlsx
+02-07-2024,26.4,86,12.3,2,bmkg_2024_06.xlsx
+03-07-2024,25.6,85,,2,bmkg_2024_06.xlsx
+04-07-2024,25.2,89,2,1,bmkg_2024_06.xlsx
+,,,,,bmkg_2024_06.xlsx
+,,,,,bmkg_2024_06.xlsx
+,,,,,bmkg_2024_06.xlsx
+KETERANGAN:,,,,,bmkg_2024_06.xlsx
+8888: Data tidak terukur,,,,,bmkg_2024_06.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2024_06.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2024_06.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2024_06.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2024_06.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2024_06.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2024_07.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2024_07.xlsx
+,BUJUR,:  106.75000,,,bmkg_2024_07.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2024_07.xlsx
+,,,,,bmkg_2024_07.xlsx
+,,,,,bmkg_2024_07.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2024_07.xlsx
+05-07-2024,26.2,85,28.6,3,bmkg_2024_07.xlsx
+06-07-2024,23.4,94,3.4,2,bmkg_2024_07.xlsx
+07-07-2024,26.4,84,39.3,2,bmkg_2024_07.xlsx
+08-07-2024,,,,2,bmkg_2024_07.xlsx
+09-07-2024,26.6,80,46.4,1,bmkg_2024_07.xlsx
+10-07-2024,26.2,82,0,2,bmkg_2024_07.xlsx
+11-07-2024,25.8,84,0,2,bmkg_2024_07.xlsx
+12-07-2024,26.7,73,2,2,bmkg_2024_07.xlsx
+13-07-2024,24.9,78,0,1,bmkg_2024_07.xlsx
+14-07-2024,25.2,77,0,1,bmkg_2024_07.xlsx
+15-07-2024,25.2,73,0,1,bmkg_2024_07.xlsx
+16-07-2024,25.8,76,0,2,bmkg_2024_07.xlsx
+17-07-2024,26.1,79,0,3,bmkg_2024_07.xlsx
+18-07-2024,26.7,80,0.2,2,bmkg_2024_07.xlsx
+19-07-2024,26.8,78,1,2,bmkg_2024_07.xlsx
+20-07-2024,26.7,77,0,2,bmkg_2024_07.xlsx
+21-07-2024,26.5,78,3,1,bmkg_2024_07.xlsx
+22-07-2024,26.8,76,0,3,bmkg_2024_07.xlsx
+23-07-2024,26.4,74,0,3,bmkg_2024_07.xlsx
+24-07-2024,26.1,74,0,3,bmkg_2024_07.xlsx
+25-07-2024,27,75,0,3,bmkg_2024_07.xlsx
+26-07-2024,27.1,77,0.2,2,bmkg_2024_07.xlsx
+27-07-2024,28.1,73,0,2,bmkg_2024_07.xlsx
+28-07-2024,27.1,75,0,1,bmkg_2024_07.xlsx
+29-07-2024,27.1,71,8888,2,bmkg_2024_07.xlsx
+30-07-2024,27.3,74,0,1,bmkg_2024_07.xlsx
+31-07-2024,27.3,73,0,1,bmkg_2024_07.xlsx
+01-08-2024,25.9,85,0,2,bmkg_2024_07.xlsx
+02-08-2024,25.1,86,48.8,1,bmkg_2024_07.xlsx
+03-08-2024,26,86,38,2,bmkg_2024_07.xlsx
+04-08-2024,26.4,82,11.7,1,bmkg_2024_07.xlsx
+,,,,,bmkg_2024_07.xlsx
+,,,,,bmkg_2024_07.xlsx
+,,,,,bmkg_2024_07.xlsx
+KETERANGAN:,,,,,bmkg_2024_07.xlsx
+8888: Data tidak terukur,,,,,bmkg_2024_07.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2024_07.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2024_07.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2024_07.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2024_07.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2024_07.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2024_08.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2024_08.xlsx
+,BUJUR,:  106.75000,,,bmkg_2024_08.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2024_08.xlsx
+,,,,,bmkg_2024_08.xlsx
+,,,,,bmkg_2024_08.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2024_08.xlsx
+05-08-2024,26.4,79,0,3,bmkg_2024_08.xlsx
+06-08-2024,26.8,79,0,2,bmkg_2024_08.xlsx
+07-08-2024,26.4,78,0,3,bmkg_2024_08.xlsx
+08-08-2024,26.7,77,0,2,bmkg_2024_08.xlsx
+09-08-2024,27.4,76,0,3,bmkg_2024_08.xlsx
+10-08-2024,27.7,76,0,3,bmkg_2024_08.xlsx
+11-08-2024,27.7,76,0.2,3,bmkg_2024_08.xlsx
+12-08-2024,26.9,65,0.8,2,bmkg_2024_08.xlsx
+13-08-2024,26.7,71,0,1,bmkg_2024_08.xlsx
+14-08-2024,27,71,0,1,bmkg_2024_08.xlsx
+15-08-2024,27.1,75,0,2,bmkg_2024_08.xlsx
+16-08-2024,26.7,75,0,3,bmkg_2024_08.xlsx
+17-08-2024,25.3,83,8888,2,bmkg_2024_08.xlsx
+18-08-2024,27.7,75,0.4,3,bmkg_2024_08.xlsx
+19-08-2024,25.4,83,0,3,bmkg_2024_08.xlsx
+20-08-2024,27.5,76,0,3,bmkg_2024_08.xlsx
+21-08-2024,27.7,76,0,3,bmkg_2024_08.xlsx
+22-08-2024,27.1,76,0,3,bmkg_2024_08.xlsx
+23-08-2024,27,83,1,2,bmkg_2024_08.xlsx
+24-08-2024,25.5,82,5,3,bmkg_2024_08.xlsx
+25-08-2024,26.8,74,13.2,3,bmkg_2024_08.xlsx
+26-08-2024,27,77,0,3,bmkg_2024_08.xlsx
+27-08-2024,27,78,0,3,bmkg_2024_08.xlsx
+28-08-2024,26.5,74,8888,2,bmkg_2024_08.xlsx
+29-08-2024,27,78,0.5,2,bmkg_2024_08.xlsx
+30-08-2024,26.7,76,0.2,2,bmkg_2024_08.xlsx
+31-08-2024,27,75,2.9,3,bmkg_2024_08.xlsx
+01-09-2024,27.7,75,0,2,bmkg_2024_08.xlsx
+02-09-2024,27.5,79,0,2,bmkg_2024_08.xlsx
+03-09-2024,26.6,80,31.5,3,bmkg_2024_08.xlsx
+04-09-2024,27.6,71,0,3,bmkg_2024_08.xlsx
+,,,,,bmkg_2024_08.xlsx
+,,,,,bmkg_2024_08.xlsx
+,,,,,bmkg_2024_08.xlsx
+KETERANGAN:,,,,,bmkg_2024_08.xlsx
+8888: Data tidak terukur,,,,,bmkg_2024_08.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2024_08.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2024_08.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2024_08.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2024_08.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2024_08.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2024_09.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2024_09.xlsx
+,BUJUR,:  106.75000,,,bmkg_2024_09.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2024_09.xlsx
+,,,,,bmkg_2024_09.xlsx
+,,,,,bmkg_2024_09.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2024_09.xlsx
+06-09-2024,27.4,76,10.7,2,bmkg_2024_09.xlsx
+07-09-2024,27.7,74,0,2,bmkg_2024_09.xlsx
+08-09-2024,27.8,75,0,3,bmkg_2024_09.xlsx
+09-09-2024,25.3,88,0,2,bmkg_2024_09.xlsx
+10-09-2024,25.1,89,44.4,3,bmkg_2024_09.xlsx
+11-09-2024,26.4,83,83.6,2,bmkg_2024_09.xlsx
+12-09-2024,26.1,83,0,3,bmkg_2024_09.xlsx
+13-09-2024,26.2,86,84.2,2,bmkg_2024_09.xlsx
+14-09-2024,26.7,78,0.2,2,bmkg_2024_09.xlsx
+15-09-2024,26.9,73,0,3,bmkg_2024_09.xlsx
+16-09-2024,26.5,75,0,3,bmkg_2024_09.xlsx
+17-09-2024,26.4,67,0,3,bmkg_2024_09.xlsx
+18-09-2024,26.4,70,0,4,bmkg_2024_09.xlsx
+19-09-2024,27.1,70,0,3,bmkg_2024_09.xlsx
+20-09-2024,27.2,73,0,2,bmkg_2024_09.xlsx
+21-09-2024,27.1,74,0,3,bmkg_2024_09.xlsx
+22-09-2024,28.2,76,0,2,bmkg_2024_09.xlsx
+23-09-2024,27.7,82,20.4,2,bmkg_2024_09.xlsx
+24-09-2024,25.9,90,1.5,1,bmkg_2024_09.xlsx
+25-09-2024,26.3,81,1.7,2,bmkg_2024_09.xlsx
+26-09-2024,25.8,84,56.9,2,bmkg_2024_09.xlsx
+27-09-2024,26.6,81,4.5,2,bmkg_2024_09.xlsx
+28-09-2024,27,82,8.6,2,bmkg_2024_09.xlsx
+29-09-2024,26.4,85,43,4,bmkg_2024_09.xlsx
+30-09-2024,27.3,77,11.3,2,bmkg_2024_09.xlsx
+01-10-2024,27.2,77,0,3,bmkg_2024_09.xlsx
+02-10-2024,28.2,78,0,2,bmkg_2024_09.xlsx
+03-10-2024,27,85,22,2,bmkg_2024_09.xlsx
+04-10-2024,25.7,86,0,3,bmkg_2024_09.xlsx
+05-10-2024,25.6,88,89.8,3,bmkg_2024_09.xlsx
+06-10-2024,27.2,81,84.5,2,bmkg_2024_09.xlsx
+,,,,,bmkg_2024_09.xlsx
+,,,,,bmkg_2024_09.xlsx
+,,,,,bmkg_2024_09.xlsx
+KETERANGAN:,,,,,bmkg_2024_09.xlsx
+8888: Data tidak terukur,,,,,bmkg_2024_09.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2024_09.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2024_09.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2024_09.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2024_09.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2024_09.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2024_10.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2024_10.xlsx
+,BUJUR,:  106.75000,,,bmkg_2024_10.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2024_10.xlsx
+,,,,,bmkg_2024_10.xlsx
+,,,,,bmkg_2024_10.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2024_10.xlsx
+07-10-2024,27.4,74,0,4,bmkg_2024_10.xlsx
+08-10-2024,26.6,80,0,2,bmkg_2024_10.xlsx
+09-10-2024,27.2,82,1.2,2,bmkg_2024_10.xlsx
+10-10-2024,27.1,79,3.5,2,bmkg_2024_10.xlsx
+11-10-2024,27.5,79,14.2,3,bmkg_2024_10.xlsx
+12-10-2024,28.3,77,0,3,bmkg_2024_10.xlsx
+13-10-2024,27,84,0,2,bmkg_2024_10.xlsx
+14-10-2024,26,88,65.7,3,bmkg_2024_10.xlsx
+15-10-2024,25.8,89,60.3,2,bmkg_2024_10.xlsx
+16-10-2024,26.9,78,105.6,3,bmkg_2024_10.xlsx
+17-10-2024,26.2,67,0,3,bmkg_2024_10.xlsx
+18-10-2024,27.1,71,0,2,bmkg_2024_10.xlsx
+19-10-2024,27.6,74,0,2,bmkg_2024_10.xlsx
+20-10-2024,27.8,71,0,2,bmkg_2024_10.xlsx
+21-10-2024,27.6,69,0,3,bmkg_2024_10.xlsx
+22-10-2024,27.1,73,0,3,bmkg_2024_10.xlsx
+23-10-2024,28.7,75,0,1,bmkg_2024_10.xlsx
+24-10-2024,28.8,75,0,2,bmkg_2024_10.xlsx
+25-10-2024,28.2,79,8.3,2,bmkg_2024_10.xlsx
+26-10-2024,28.1,72,0,3,bmkg_2024_10.xlsx
+27-10-2024,28.2,75,0,2,bmkg_2024_10.xlsx
+28-10-2024,27.5,80,3.5,2,bmkg_2024_10.xlsx
+29-10-2024,27.2,83,13.3,2,bmkg_2024_10.xlsx
+30-10-2024,27.2,82,11.5,2,bmkg_2024_10.xlsx
+31-10-2024,26.2,85,10.2,3,bmkg_2024_10.xlsx
+01-11-2024,27.1,80,17,2,bmkg_2024_10.xlsx
+02-11-2024,27,82,0,2,bmkg_2024_10.xlsx
+03-11-2024,26.2,83,34.4,2,bmkg_2024_10.xlsx
+04-11-2024,26.4,82,29.2,2,bmkg_2024_10.xlsx
+05-11-2024,26.4,86,7.6,3,bmkg_2024_10.xlsx
+06-11-2024,26.7,80,60.5,2,bmkg_2024_10.xlsx
+,,,,,bmkg_2024_10.xlsx
+,,,,,bmkg_2024_10.xlsx
+,,,,,bmkg_2024_10.xlsx
+KETERANGAN:,,,,,bmkg_2024_10.xlsx
+8888: Data tidak terukur,,,,,bmkg_2024_10.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2024_10.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2024_10.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2024_10.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2024_10.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2024_10.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2024_11.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2024_11.xlsx
+,BUJUR,:  106.75000,,,bmkg_2024_11.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2024_11.xlsx
+,,,,,bmkg_2024_11.xlsx
+,,,,,bmkg_2024_11.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2024_11.xlsx
+07-11-2024,26.1,84,0,2,bmkg_2024_11.xlsx
+08-11-2024,27.8,80,70.6,3,bmkg_2024_11.xlsx
+09-11-2024,26.9,84,8888,3,bmkg_2024_11.xlsx
+10-11-2024,26.4,84,8888,1,bmkg_2024_11.xlsx
+11-11-2024,25.4,90,21.5,3,bmkg_2024_11.xlsx
+12-11-2024,26.4,86,86.7,3,bmkg_2024_11.xlsx
+13-11-2024,27.8,77,0.1,3,bmkg_2024_11.xlsx
+14-11-2024,27.5,84,0,2,bmkg_2024_11.xlsx
+15-11-2024,27.5,84,59.6,2,bmkg_2024_11.xlsx
+16-11-2024,26,93,10.4,2,bmkg_2024_11.xlsx
+17-11-2024,26.4,87,14.7,2,bmkg_2024_11.xlsx
+18-11-2024,26.1,89,14.7,2,bmkg_2024_11.xlsx
+19-11-2024,26.7,83,14.4,3,bmkg_2024_11.xlsx
+20-11-2024,26.6,83,59.7,2,bmkg_2024_11.xlsx
+21-11-2024,27.1,85,24.1,2,bmkg_2024_11.xlsx
+22-11-2024,26.7,88,15.8,2,bmkg_2024_11.xlsx
+23-11-2024,26.8,85,6.6,2,bmkg_2024_11.xlsx
+24-11-2024,26.6,88,3.7,2,bmkg_2024_11.xlsx
+25-11-2024,27.2,84,11.5,2,bmkg_2024_11.xlsx
+26-11-2024,27.5,81,0.7,1,bmkg_2024_11.xlsx
+27-11-2024,25.3,93,44.3,2,bmkg_2024_11.xlsx
+28-11-2024,26.2,86,72.1,2,bmkg_2024_11.xlsx
+29-11-2024,26.9,81,0.5,2,bmkg_2024_11.xlsx
+30-11-2024,27.6,79,0,2,bmkg_2024_11.xlsx
+01-12-2024,28.1,77,1.2,3,bmkg_2024_11.xlsx
+02-12-2024,26.4,86,0.8,3,bmkg_2024_11.xlsx
+03-12-2024,26,85,15.8,2,bmkg_2024_11.xlsx
+04-12-2024,25,91,1.5,1,bmkg_2024_11.xlsx
+05-12-2024,25.1,90,3.9,4,bmkg_2024_11.xlsx
+06-12-2024,25.5,91,11.7,1,bmkg_2024_11.xlsx
+07-12-2024,26.9,88,0.1,1,bmkg_2024_11.xlsx
+,,,,,bmkg_2024_11.xlsx
+,,,,,bmkg_2024_11.xlsx
+,,,,,bmkg_2024_11.xlsx
+KETERANGAN:,,,,,bmkg_2024_11.xlsx
+8888: Data tidak terukur,,,,,bmkg_2024_11.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2024_11.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2024_11.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2024_11.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2024_11.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2024_11.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2024_12.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2024_12.xlsx
+,BUJUR,:  106.75000,,,bmkg_2024_12.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2024_12.xlsx
+,,,,,bmkg_2024_12.xlsx
+,,,,,bmkg_2024_12.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2024_12.xlsx
+08-12-2024,27,86,8.7,2,bmkg_2024_12.xlsx
+09-12-2024,24.8,96,2.2,1,bmkg_2024_12.xlsx
+10-12-2024,25.5,88,26.1,2,bmkg_2024_12.xlsx
+11-12-2024,27.1,77,27.7,5,bmkg_2024_12.xlsx
+12-12-2024,27.4,72,10.7,7,bmkg_2024_12.xlsx
+13-12-2024,28,73,8888,6,bmkg_2024_12.xlsx
+14-12-2024,25.7,87,8.1,4,bmkg_2024_12.xlsx
+15-12-2024,25.8,84,4.3,4,bmkg_2024_12.xlsx
+16-12-2024,24.8,94,0.5,2,bmkg_2024_12.xlsx
+17-12-2024,26.8,84,20,3,bmkg_2024_12.xlsx
+18-12-2024,25.5,90,0,3,bmkg_2024_12.xlsx
+19-12-2024,24.9,91,5.3,4,bmkg_2024_12.xlsx
+20-12-2024,25.2,91,18.1,3,bmkg_2024_12.xlsx
+21-12-2024,26.4,88,14.8,2,bmkg_2024_12.xlsx
+22-12-2024,25.6,93,10.9,1,bmkg_2024_12.xlsx
+23-12-2024,25.7,89,13.5,1,bmkg_2024_12.xlsx
+24-12-2024,25.5,88,9.9,2,bmkg_2024_12.xlsx
+25-12-2024,25.8,90,1.1,2,bmkg_2024_12.xlsx
+26-12-2024,26.6,81,14,2,bmkg_2024_12.xlsx
+27-12-2024,26.4,84,0,2,bmkg_2024_12.xlsx
+28-12-2024,27.4,77,8888,2,bmkg_2024_12.xlsx
+29-12-2024,27.5,76,0,3,bmkg_2024_12.xlsx
+30-12-2024,25.8,81,0.6,4,bmkg_2024_12.xlsx
+31-12-2024,27.1,77,0.5,4,bmkg_2024_12.xlsx
+01-01-2025,26.3,83,0,3,bmkg_2024_12.xlsx
+02-01-2025,27.1,77,5.2,3,bmkg_2024_12.xlsx
+03-01-2025,27,80,0,3,bmkg_2024_12.xlsx
+04-01-2025,26.7,83,0,2,bmkg_2024_12.xlsx
+05-01-2025,27.2,78,1.6,3,bmkg_2024_12.xlsx
+06-01-2025,26.6,80,8888,3,bmkg_2024_12.xlsx
+07-01-2025,26.4,85,25.2,3,bmkg_2024_12.xlsx
+,,,,,bmkg_2024_12.xlsx
+,,,,,bmkg_2024_12.xlsx
+,,,,,bmkg_2024_12.xlsx
+KETERANGAN:,,,,,bmkg_2024_12.xlsx
+8888: Data tidak terukur,,,,,bmkg_2024_12.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2024_12.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2024_12.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2024_12.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2024_12.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2024_12.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2025_01.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2025_01.xlsx
+,BUJUR,:  106.75000,,,bmkg_2025_01.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2025_01.xlsx
+,,,,,bmkg_2025_01.xlsx
+,,,,,bmkg_2025_01.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2025_01.xlsx
+08-01-2025,27,85,8888,2,bmkg_2025_01.xlsx
+09-01-2025,25.5,91,27,1,bmkg_2025_01.xlsx
+10-01-2025,26.7,86,2,3,bmkg_2025_01.xlsx
+11-01-2025,26.2,87,1,3,bmkg_2025_01.xlsx
+12-01-2025,26.6,80,7,3,bmkg_2025_01.xlsx
+13-01-2025,26.3,84,8888,2,bmkg_2025_01.xlsx
+14-01-2025,25,93,8888,2,bmkg_2025_01.xlsx
+15-01-2025,26.7,84,16.4,2,bmkg_2025_01.xlsx
+16-01-2025,25.8,89,0,2,bmkg_2025_01.xlsx
+17-01-2025,26.3,89,2.6,2,bmkg_2025_01.xlsx
+18-01-2025,25.9,85,14.6,2,bmkg_2025_01.xlsx
+19-01-2025,25.6,87,3.4,3,bmkg_2025_01.xlsx
+20-01-2025,25.4,89,57.8,2,bmkg_2025_01.xlsx
+21-01-2025,25.5,93,5.2,2,bmkg_2025_01.xlsx
+22-01-2025,25.6,87,21.4,3,bmkg_2025_01.xlsx
+23-01-2025,25.4,87,0.4,3,bmkg_2025_01.xlsx
+24-01-2025,24.4,96,4.1,2,bmkg_2025_01.xlsx
+25-01-2025,25.7,87,28.6,2,bmkg_2025_01.xlsx
+26-01-2025,26.1,84,2,3,bmkg_2025_01.xlsx
+27-01-2025,26.1,85,0,1,bmkg_2025_01.xlsx
+28-01-2025,23.7,96,3,2,bmkg_2025_01.xlsx
+29-01-2025,25.3,88,21.6,2,bmkg_2025_01.xlsx
+30-01-2025,25.4,86,28.3,2,bmkg_2025_01.xlsx
+31-01-2025,26.4,87,6.7,2,bmkg_2025_01.xlsx
+01-02-2025,26.3,90,9.3,2,bmkg_2025_01.xlsx
+02-02-2025,26.7,87,1.6,2,bmkg_2025_01.xlsx
+03-02-2025,26.8,88,0,2,bmkg_2025_01.xlsx
+04-02-2025,25.7,88,0,5,bmkg_2025_01.xlsx
+05-02-2025,26.9,77,3.4,6,bmkg_2025_01.xlsx
+06-02-2025,26.1,89,12.1,3,bmkg_2025_01.xlsx
+07-02-2025,26.5,88,1.1,1,bmkg_2025_01.xlsx
+,,,,,bmkg_2025_01.xlsx
+,,,,,bmkg_2025_01.xlsx
+,,,,,bmkg_2025_01.xlsx
+KETERANGAN:,,,,,bmkg_2025_01.xlsx
+8888: Data tidak terukur,,,,,bmkg_2025_01.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2025_01.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2025_01.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2025_01.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2025_01.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2025_01.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2025_02.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2025_02.xlsx
+,BUJUR,:  106.75000,,,bmkg_2025_02.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2025_02.xlsx
+,,,,,bmkg_2025_02.xlsx
+,,,,,bmkg_2025_02.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2025_02.xlsx
+08-02-2025,25.1,89,3.2,1,bmkg_2025_02.xlsx
+09-02-2025,26.2,88,8888,2,bmkg_2025_02.xlsx
+10-02-2025,26.8,88,2.4,2,bmkg_2025_02.xlsx
+11-02-2025,27.2,84,0,3,bmkg_2025_02.xlsx
+12-02-2025,26.9,78,0,2,bmkg_2025_02.xlsx
+13-02-2025,27.4,80,0,3,bmkg_2025_02.xlsx
+14-02-2025,26.8,83,0,2,bmkg_2025_02.xlsx
+15-02-2025,26.2,87,0.4,2,bmkg_2025_02.xlsx
+16-02-2025,26.2,85,0.2,2,bmkg_2025_02.xlsx
+17-02-2025,25,90,8888,1,bmkg_2025_02.xlsx
+18-02-2025,25.9,86,1.2,2,bmkg_2025_02.xlsx
+19-02-2025,26.1,88,3,2,bmkg_2025_02.xlsx
+20-02-2025,25.3,86,5.8,3,bmkg_2025_02.xlsx
+21-02-2025,26.5,84,6,2,bmkg_2025_02.xlsx
+22-02-2025,25.9,88,0,2,bmkg_2025_02.xlsx
+23-02-2025,25.3,90,1,2,bmkg_2025_02.xlsx
+24-02-2025,25.4,89,1.7,3,bmkg_2025_02.xlsx
+25-02-2025,25.9,88,45.1,2,bmkg_2025_02.xlsx
+26-02-2025,25.4,92,5.5,1,bmkg_2025_02.xlsx
+27-02-2025,25.5,89,4.7,2,bmkg_2025_02.xlsx
+28-02-2025,25.8,89,41,2,bmkg_2025_02.xlsx
+01-03-2025,26.3,85,19.6,2,bmkg_2025_02.xlsx
+02-03-2025,26.3,89,0,3,bmkg_2025_02.xlsx
+03-03-2025,26.3,89,74.2,3,bmkg_2025_02.xlsx
+04-03-2025,25.6,90,53.8,2,bmkg_2025_02.xlsx
+05-03-2025,26.9,81,0.2,2,bmkg_2025_02.xlsx
+06-03-2025,26.1,86,0,3,bmkg_2025_02.xlsx
+07-03-2025,26.5,85,41.8,3,bmkg_2025_02.xlsx
+,,,,,bmkg_2025_02.xlsx
+,,,,,bmkg_2025_02.xlsx
+,,,,,bmkg_2025_02.xlsx
+KETERANGAN:,,,,,bmkg_2025_02.xlsx
+8888: Data tidak terukur,,,,,bmkg_2025_02.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2025_02.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2025_02.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2025_02.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2025_02.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2025_02.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2025_03.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2025_03.xlsx
+,BUJUR,:  106.75000,,,bmkg_2025_03.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2025_03.xlsx
+,,,,,bmkg_2025_03.xlsx
+,,,,,bmkg_2025_03.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2025_03.xlsx
+08-03-2025,26.2,87,0,2,bmkg_2025_03.xlsx
+09-03-2025,25.9,89,11.7,2,bmkg_2025_03.xlsx
+10-03-2025,24.6,91,7.4,1,bmkg_2025_03.xlsx
+11-03-2025,26.6,84,0.2,2,bmkg_2025_03.xlsx
+12-03-2025,27.1,85,26,2,bmkg_2025_03.xlsx
+13-03-2025,26.9,88,0,2,bmkg_2025_03.xlsx
+14-03-2025,25.7,89,46.4,2,bmkg_2025_03.xlsx
+15-03-2025,25.2,91,7.2,2,bmkg_2025_03.xlsx
+16-03-2025,26.5,83,6.5,1,bmkg_2025_03.xlsx
+17-03-2025,25,94,8888,2,bmkg_2025_03.xlsx
+18-03-2025,26.2,89,130.4,2,bmkg_2025_03.xlsx
+19-03-2025,26.3,81,5.2,2,bmkg_2025_03.xlsx
+20-03-2025,27.1,81,0,3,bmkg_2025_03.xlsx
+21-03-2025,27.4,80,8888,2,bmkg_2025_03.xlsx
+22-03-2025,26.9,87,0,1,bmkg_2025_03.xlsx
+23-03-2025,26.9,82,0.5,3,bmkg_2025_03.xlsx
+24-03-2025,26.1,84,8888,2,bmkg_2025_03.xlsx
+25-03-2025,25.6,86,4.1,1,bmkg_2025_03.xlsx
+26-03-2025,25.5,92,8888,2,bmkg_2025_03.xlsx
+27-03-2025,25.4,90,1.6,2,bmkg_2025_03.xlsx
+28-03-2025,26.2,88,3.4,4,bmkg_2025_03.xlsx
+29-03-2025,26.2,85,6.4,2,bmkg_2025_03.xlsx
+30-03-2025,27.2,84,0.2,0,bmkg_2025_03.xlsx
+31-03-2025,26.8,85,0,2,bmkg_2025_03.xlsx
+01-04-2025,24.5,94,6.4,1,bmkg_2025_03.xlsx
+02-04-2025,26.4,87,11.8,2,bmkg_2025_03.xlsx
+03-04-2025,26.3,88,9.6,2,bmkg_2025_03.xlsx
+04-04-2025,26.9,84,4.6,2,bmkg_2025_03.xlsx
+05-04-2025,26.5,85,0,1,bmkg_2025_03.xlsx
+06-04-2025,26.2,84,0.3,2,bmkg_2025_03.xlsx
+07-04-2025,27.2,83,6.8,2,bmkg_2025_03.xlsx
+,,,,,bmkg_2025_03.xlsx
+,,,,,bmkg_2025_03.xlsx
+,,,,,bmkg_2025_03.xlsx
+KETERANGAN:,,,,,bmkg_2025_03.xlsx
+8888: Data tidak terukur,,,,,bmkg_2025_03.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2025_03.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2025_03.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2025_03.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2025_03.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2025_03.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2025_04.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2025_04.xlsx
+,BUJUR,:  106.75000,,,bmkg_2025_04.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2025_04.xlsx
+,,,,,bmkg_2025_04.xlsx
+,,,,,bmkg_2025_04.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2025_04.xlsx
+08-04-2025,26.8,81,0.1,1,bmkg_2025_04.xlsx
+09-04-2025,27.7,81,0,2,bmkg_2025_04.xlsx
+10-04-2025,26.6,87,0,1,bmkg_2025_04.xlsx
+11-04-2025,26.5,86,0.6,2,bmkg_2025_04.xlsx
+12-04-2025,26.4,90,28.4,2,bmkg_2025_04.xlsx
+13-04-2025,25.7,90,3,2,bmkg_2025_04.xlsx
+14-04-2025,26.6,85,2.6,1,bmkg_2025_04.xlsx
+15-04-2025,25.5,91,0,1,bmkg_2025_04.xlsx
+16-04-2025,25.9,86,3.2,2,bmkg_2025_04.xlsx
+17-04-2025,27.1,87,6.8,1,bmkg_2025_04.xlsx
+18-04-2025,26.8,86,0,3,bmkg_2025_04.xlsx
+19-04-2025,27.1,84,0,2,bmkg_2025_04.xlsx
+20-04-2025,26.9,82,21.7,2,bmkg_2025_04.xlsx
+21-04-2025,26.4,85,0,1,bmkg_2025_04.xlsx
+22-04-2025,27,82,0,2,bmkg_2025_04.xlsx
+23-04-2025,26.5,83,0,3,bmkg_2025_04.xlsx
+24-04-2025,26.6,85,0,2,bmkg_2025_04.xlsx
+25-04-2025,26.8,85,1.8,3,bmkg_2025_04.xlsx
+26-04-2025,26.7,89,3.6,1,bmkg_2025_04.xlsx
+27-04-2025,26.9,87,36.9,1,bmkg_2025_04.xlsx
+28-04-2025,27,82,69.5,2,bmkg_2025_04.xlsx
+29-04-2025,27.2,81,1.6,1,bmkg_2025_04.xlsx
+30-04-2025,26.2,87,0,3,bmkg_2025_04.xlsx
+01-05-2025,27.2,82,19.8,2,bmkg_2025_04.xlsx
+02-05-2025,27.2,81,4,2,bmkg_2025_04.xlsx
+03-05-2025,26.7,85,0,3,bmkg_2025_04.xlsx
+04-05-2025,26.8,84,0.4,2,bmkg_2025_04.xlsx
+05-05-2025,26.5,85,0,2,bmkg_2025_04.xlsx
+06-05-2025,26.6,87,32.4,2,bmkg_2025_04.xlsx
+07-05-2025,25.6,94,19.2,2,bmkg_2025_04.xlsx
+08-05-2025,26.6,89,9.4,2,bmkg_2025_04.xlsx
+,,,,,bmkg_2025_04.xlsx
+,,,,,bmkg_2025_04.xlsx
+,,,,,bmkg_2025_04.xlsx
+KETERANGAN:,,,,,bmkg_2025_04.xlsx
+8888: Data tidak terukur,,,,,bmkg_2025_04.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2025_04.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2025_04.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2025_04.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2025_04.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2025_04.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2025_05.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2025_05.xlsx
+,BUJUR,:  106.75000,,,bmkg_2025_05.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2025_05.xlsx
+,,,,,bmkg_2025_05.xlsx
+,,,,,bmkg_2025_05.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2025_05.xlsx
+09-05-2025,27,87,55.2,1,bmkg_2025_05.xlsx
+10-05-2025,26.9,88,8.4,2,bmkg_2025_05.xlsx
+11-05-2025,26.6,86,1.5,2,bmkg_2025_05.xlsx
+12-05-2025,27.3,81,1,1,bmkg_2025_05.xlsx
+13-05-2025,27.6,82,0,2,bmkg_2025_05.xlsx
+14-05-2025,26.1,88,22.3,2,bmkg_2025_05.xlsx
+15-05-2025,26.2,88,14.8,2,bmkg_2025_05.xlsx
+16-05-2025,27.4,86,25.5,2,bmkg_2025_05.xlsx
+17-05-2025,26.7,86,3.8,2,bmkg_2025_05.xlsx
+18-05-2025,27.6,82,1,2,bmkg_2025_05.xlsx
+19-05-2025,26.2,87,0.3,2,bmkg_2025_05.xlsx
+20-05-2025,27.3,82,10.9,1,bmkg_2025_05.xlsx
+21-05-2025,26.2,90,1.2,1,bmkg_2025_05.xlsx
+22-05-2025,26.2,90,2.2,1,bmkg_2025_05.xlsx
+23-05-2025,25.1,93,3.2,2,bmkg_2025_05.xlsx
+24-05-2025,26.8,85,10.7,1,bmkg_2025_05.xlsx
+25-05-2025,26.6,89,0.2,2,bmkg_2025_05.xlsx
+26-05-2025,25.3,92,0,1,bmkg_2025_05.xlsx
+27-05-2025,27.2,78,1.4,4,bmkg_2025_05.xlsx
+28-05-2025,28.1,78,0,1,bmkg_2025_05.xlsx
+29-05-2025,27.4,85,0,1,bmkg_2025_05.xlsx
+30-05-2025,27.5,84,4.2,1,bmkg_2025_05.xlsx
+31-05-2025,26.3,84,0.2,3,bmkg_2025_05.xlsx
+01-06-2025,26.1,83,5.2,1,bmkg_2025_05.xlsx
+02-06-2025,27.3,78,0,1,bmkg_2025_05.xlsx
+03-06-2025,26.5,85,0,1,bmkg_2025_05.xlsx
+04-06-2025,27.1,81,0,1,bmkg_2025_05.xlsx
+05-06-2025,27,83,0,1,bmkg_2025_05.xlsx
+06-06-2025,26.6,87,8,2,bmkg_2025_05.xlsx
+07-06-2025,26.6,85,0,1,bmkg_2025_05.xlsx
+08-06-2025,26.8,82,6.4,2,bmkg_2025_05.xlsx
+,,,,,bmkg_2025_05.xlsx
+,,,,,bmkg_2025_05.xlsx
+,,,,,bmkg_2025_05.xlsx
+KETERANGAN:,,,,,bmkg_2025_05.xlsx
+8888: Data tidak terukur,,,,,bmkg_2025_05.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2025_05.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2025_05.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2025_05.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2025_05.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2025_05.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2025_06.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2025_06.xlsx
+,BUJUR,:  106.75000,,,bmkg_2025_06.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2025_06.xlsx
+,,,,,bmkg_2025_06.xlsx
+,,,,,bmkg_2025_06.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2025_06.xlsx
+09-06-2025,27.6,80,0,1,bmkg_2025_06.xlsx
+10-06-2025,26.4,86,0,2,bmkg_2025_06.xlsx
+11-06-2025,27.2,84,2,1,bmkg_2025_06.xlsx
+12-06-2025,27.2,81,0,2,bmkg_2025_06.xlsx
+13-06-2025,27.5,77,0,2,bmkg_2025_06.xlsx
+14-06-2025,26.5,82,0,3,bmkg_2025_06.xlsx
+15-06-2025,27.1,81,0,3,bmkg_2025_06.xlsx
+16-06-2025,27.4,79,0,3,bmkg_2025_06.xlsx
+17-06-2025,25.4,88,57,1,bmkg_2025_06.xlsx
+18-06-2025,24.6,94,34.7,0,bmkg_2025_06.xlsx
+19-06-2025,24.9,92,7.5,2,bmkg_2025_06.xlsx
+20-06-2025,25.9,82,0.2,3,bmkg_2025_06.xlsx
+21-06-2025,25.2,90,53,1,bmkg_2025_06.xlsx
+22-06-2025,26.6,83,25.2,3,bmkg_2025_06.xlsx
+23-06-2025,27.2,80,0,3,bmkg_2025_06.xlsx
+24-06-2025,26.4,82,0,2,bmkg_2025_06.xlsx
+25-06-2025,25.7,86,0,2,bmkg_2025_06.xlsx
+26-06-2025,26.3,83,2.7,3,bmkg_2025_06.xlsx
+27-06-2025,26.6,81,0,2,bmkg_2025_06.xlsx
+28-06-2025,25.4,89,0,3,bmkg_2025_06.xlsx
+29-06-2025,23.7,93,12,0,bmkg_2025_06.xlsx
+30-06-2025,26.4,82,0.9,3,bmkg_2025_06.xlsx
+01-07-2025,26,87,10.1,3,bmkg_2025_06.xlsx
+02-07-2025,25.7,86,2.4,2,bmkg_2025_06.xlsx
+03-07-2025,26.3,88,11.8,3,bmkg_2025_06.xlsx
+04-07-2025,25.5,90,51.6,1,bmkg_2025_06.xlsx
+05-07-2025,25.9,89,50,3,bmkg_2025_06.xlsx
+06-07-2025,25.3,88,86,3,bmkg_2025_06.xlsx
+07-07-2025,24.7,87,6.7,2,bmkg_2025_06.xlsx
+08-07-2025,26.1,86,53.8,1,bmkg_2025_06.xlsx
+09-07-2025,26.4,86,0.2,1,bmkg_2025_06.xlsx
+,,,,,bmkg_2025_06.xlsx
+,,,,,bmkg_2025_06.xlsx
+,,,,,bmkg_2025_06.xlsx
+KETERANGAN:,,,,,bmkg_2025_06.xlsx
+8888: Data tidak terukur,,,,,bmkg_2025_06.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2025_06.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2025_06.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2025_06.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2025_06.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2025_06.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2025_07.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2025_07.xlsx
+,BUJUR,:  106.75000,,,bmkg_2025_07.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2025_07.xlsx
+,,,,,bmkg_2025_07.xlsx
+,,,,,bmkg_2025_07.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2025_07.xlsx
+10-07-2025,25.5,82,1.4,2,bmkg_2025_07.xlsx
+11-07-2025,26.4,80,0,2,bmkg_2025_07.xlsx
+12-07-2025,26.3,80,0,3,bmkg_2025_07.xlsx
+13-07-2025,25.8,82,0,2,bmkg_2025_07.xlsx
+14-07-2025,26.5,87,2.7,1,bmkg_2025_07.xlsx
+15-07-2025,26.2,85,0.3,2,bmkg_2025_07.xlsx
+16-07-2025,26.3,84,0,3,bmkg_2025_07.xlsx
+17-07-2025,26.6,81,0.5,3,bmkg_2025_07.xlsx
+18-07-2025,26.9,80,0.2,1,bmkg_2025_07.xlsx
+19-07-2025,26.1,81,8.8,1,bmkg_2025_07.xlsx
+20-07-2025,26.4,78,0,2,bmkg_2025_07.xlsx
+21-07-2025,26.6,76,0,4,bmkg_2025_07.xlsx
+22-07-2025,26.1,76,0,2,bmkg_2025_07.xlsx
+23-07-2025,26.5,74,0,2,bmkg_2025_07.xlsx
+24-07-2025,26.8,75,0,2,bmkg_2025_07.xlsx
+25-07-2025,27.1,77,0,3,bmkg_2025_07.xlsx
+26-07-2025,26.6,79,0,2,bmkg_2025_07.xlsx
+27-07-2025,26.6,82,0,1,bmkg_2025_07.xlsx
+28-07-2025,25.9,85,55.3,2,bmkg_2025_07.xlsx
+29-07-2025,26.1,87,5.4,2,bmkg_2025_07.xlsx
+30-07-2025,25.6,89,53.5,2,bmkg_2025_07.xlsx
+31-07-2025,27.1,78,68.8,3,bmkg_2025_07.xlsx
+01-08-2025,26.6,81,0,2,bmkg_2025_07.xlsx
+02-08-2025,26.3,78,0,2,bmkg_2025_07.xlsx
+03-08-2025,26.2,84,0,3,bmkg_2025_07.xlsx
+04-08-2025,25.4,87,24.6,3,bmkg_2025_07.xlsx
+05-08-2025,25.4,87,66.5,2,bmkg_2025_07.xlsx
+06-08-2025,26.4,84,41,3,bmkg_2025_07.xlsx
+07-08-2025,26.7,83,0,2,bmkg_2025_07.xlsx
+08-08-2025,26.5,87,55.2,2,bmkg_2025_07.xlsx
+09-08-2025,25.4,89,1.8,3,bmkg_2025_07.xlsx
+,,,,,bmkg_2025_07.xlsx
+,,,,,bmkg_2025_07.xlsx
+,,,,,bmkg_2025_07.xlsx
+KETERANGAN:,,,,,bmkg_2025_07.xlsx
+8888: Data tidak terukur,,,,,bmkg_2025_07.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2025_07.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2025_07.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2025_07.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2025_07.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2025_07.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2025_08.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2025_08.xlsx
+,BUJUR,:  106.75000,,,bmkg_2025_08.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2025_08.xlsx
+,,,,,bmkg_2025_08.xlsx
+,,,,,bmkg_2025_08.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2025_08.xlsx
+10-08-2025,25.3,84,115.2,2,bmkg_2025_08.xlsx
+11-08-2025,25.2,91,43,2,bmkg_2025_08.xlsx
+12-08-2025,24.2,93,11.1,1,bmkg_2025_08.xlsx
+13-08-2025,25.4,85,15,3,bmkg_2025_08.xlsx
+14-08-2025,25,76,0.2,3,bmkg_2025_08.xlsx
+15-08-2025,25.3,77,0.4,1,bmkg_2025_08.xlsx
+16-08-2025,26.2,75,0,2,bmkg_2025_08.xlsx
+17-08-2025,26.1,78,0,4,bmkg_2025_08.xlsx
+18-08-2025,25.5,85,0,3,bmkg_2025_08.xlsx
+19-08-2025,25.2,89,0.9,2,bmkg_2025_08.xlsx
+20-08-2025,25.1,88,3.2,1,bmkg_2025_08.xlsx
+21-08-2025,25.4,85,15.1,3,bmkg_2025_08.xlsx
+22-08-2025,26.4,87,33.6,1,bmkg_2025_08.xlsx
+23-08-2025,27,83,0.4,3,bmkg_2025_08.xlsx
+24-08-2025,25.6,85,39.5,3,bmkg_2025_08.xlsx
+25-08-2025,25,87,4.2,1,bmkg_2025_08.xlsx
+26-08-2025,26.1,79,22.2,3,bmkg_2025_08.xlsx
+27-08-2025,26.4,75,0,3,bmkg_2025_08.xlsx
+28-08-2025,26.5,80,0.2,3,bmkg_2025_08.xlsx
+29-08-2025,26.1,83,4.2,2,bmkg_2025_08.xlsx
+30-08-2025,26.9,77,0.6,2,bmkg_2025_08.xlsx
+31-08-2025,25.3,87,39.2,2,bmkg_2025_08.xlsx
+01-09-2025,26.4,83,29.1,4,bmkg_2025_08.xlsx
+02-09-2025,27,73,0,3,bmkg_2025_08.xlsx
+03-09-2025,26.3,76,0,2,bmkg_2025_08.xlsx
+04-09-2025,26.9,74,0,3,bmkg_2025_08.xlsx
+05-09-2025,26.7,85,0,3,bmkg_2025_08.xlsx
+06-09-2025,25.6,85,39.8,2,bmkg_2025_08.xlsx
+07-09-2025,26.2,80,8.4,2,bmkg_2025_08.xlsx
+08-09-2025,26.5,82,0,2,bmkg_2025_08.xlsx
+09-09-2025,25.3,90,12.1,1,bmkg_2025_08.xlsx
+,,,,,bmkg_2025_08.xlsx
+,,,,,bmkg_2025_08.xlsx
+,,,,,bmkg_2025_08.xlsx
+KETERANGAN:,,,,,bmkg_2025_08.xlsx
+8888: Data tidak terukur,,,,,bmkg_2025_08.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2025_08.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2025_08.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2025_08.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2025_08.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2025_08.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2025_09.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2025_09.xlsx
+,BUJUR,:  106.75000,,,bmkg_2025_09.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2025_09.xlsx
+,,,,,bmkg_2025_09.xlsx
+,,,,,bmkg_2025_09.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2025_09.xlsx
+10-09-2025,26.2,83,0.6,3,bmkg_2025_09.xlsx
+11-09-2025,24.4,94,47.2,2,bmkg_2025_09.xlsx
+12-09-2025,25.8,87,2.4,2,bmkg_2025_09.xlsx
+13-09-2025,27,80,1.5,2,bmkg_2025_09.xlsx
+14-09-2025,25.6,86,8.6,2,bmkg_2025_09.xlsx
+15-09-2025,26.6,79,6.9,2,bmkg_2025_09.xlsx
+16-09-2025,25.6,85,0.2,3,bmkg_2025_09.xlsx
+17-09-2025,24.9,90,18.6,2,bmkg_2025_09.xlsx
+18-09-2025,24.7,93,84,1,bmkg_2025_09.xlsx
+19-09-2025,25.8,86,0,1,bmkg_2025_09.xlsx
+20-09-2025,25.7,87,0,2,bmkg_2025_09.xlsx
+21-09-2025,25.8,86,4.2,3,bmkg_2025_09.xlsx
+22-09-2025,26.8,85,0.2,2,bmkg_2025_09.xlsx
+23-09-2025,26.1,88,3.8,2,bmkg_2025_09.xlsx
+24-09-2025,26.5,81,37,3,bmkg_2025_09.xlsx
+25-09-2025,26.3,82,0,3,bmkg_2025_09.xlsx
+26-09-2025,26.4,83,1.2,3,bmkg_2025_09.xlsx
+27-09-2025,27.7,80,2,1,bmkg_2025_09.xlsx
+28-09-2025,27.1,78,0,3,bmkg_2025_09.xlsx
+29-09-2025,25.5,87,0,3,bmkg_2025_09.xlsx
+30-09-2025,25.3,86,35.6,4,bmkg_2025_09.xlsx
+01-10-2025,26.5,85,24.8,3,bmkg_2025_09.xlsx
+02-10-2025,24.4,94,1.8,2,bmkg_2025_09.xlsx
+03-10-2025,26.3,82,23.4,1,bmkg_2025_09.xlsx
+04-10-2025,26.8,79,0,3,bmkg_2025_09.xlsx
+05-10-2025,25.4,84,12.5,2,bmkg_2025_09.xlsx
+06-10-2025,27.3,76,6.4,3,bmkg_2025_09.xlsx
+07-10-2025,26.8,81,0,3,bmkg_2025_09.xlsx
+08-10-2025,26.4,84,0.2,3,bmkg_2025_09.xlsx
+09-10-2025,26.3,78,16.8,4,bmkg_2025_09.xlsx
+10-10-2025,27.2,75,0.2,3,bmkg_2025_09.xlsx
+,,,,,bmkg_2025_09.xlsx
+,,,,,bmkg_2025_09.xlsx
+,,,,,bmkg_2025_09.xlsx
+KETERANGAN:,,,,,bmkg_2025_09.xlsx
+8888: Data tidak terukur,,,,,bmkg_2025_09.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2025_09.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2025_09.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2025_09.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2025_09.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2025_09.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2025_10.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2025_10.xlsx
+,BUJUR,:  106.75000,,,bmkg_2025_10.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2025_10.xlsx
+,,,,,bmkg_2025_10.xlsx
+,,,,,bmkg_2025_10.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2025_10.xlsx
+11-10-2025,27.8,76,7.4,2,bmkg_2025_10.xlsx
+12-10-2025,27.9,78,16.8,2,bmkg_2025_10.xlsx
+13-10-2025,27.9,80,0,3,bmkg_2025_10.xlsx
+14-10-2025,28.6,75,0,2,bmkg_2025_10.xlsx
+15-10-2025,28.3,78,0,2,bmkg_2025_10.xlsx
+16-10-2025,27.9,80,0,3,bmkg_2025_10.xlsx
+17-10-2025,27,82,0,3,bmkg_2025_10.xlsx
+18-10-2025,26.8,87,6.4,1,bmkg_2025_10.xlsx
+19-10-2025,26,88,16.4,2,bmkg_2025_10.xlsx
+20-10-2025,27.6,85,18.5,2,bmkg_2025_10.xlsx
+21-10-2025,27.5,84,0.6,3,bmkg_2025_10.xlsx
+22-10-2025,26.8,84,6.2,2,bmkg_2025_10.xlsx
+23-10-2025,25.5,90,2.5,2,bmkg_2025_10.xlsx
+24-10-2025,25.2,93,4,2,bmkg_2025_10.xlsx
+25-10-2025,27.1,83,10.8,2,bmkg_2025_10.xlsx
+26-10-2025,25.5,92,0.8,2,bmkg_2025_10.xlsx
+27-10-2025,26.2,86,3.4,2,bmkg_2025_10.xlsx
+28-10-2025,25.2,88,16.5,2,bmkg_2025_10.xlsx
+29-10-2025,26.1,89,13.8,2,bmkg_2025_10.xlsx
+30-10-2025,26.2,86,8.4,2,bmkg_2025_10.xlsx
+31-10-2025,25.9,84,1.6,2,bmkg_2025_10.xlsx
+01-11-2025,26.5,85,2.6,2,bmkg_2025_10.xlsx
+02-11-2025,26.7,83,50,3,bmkg_2025_10.xlsx
+03-11-2025,26.3,84,4,2,bmkg_2025_10.xlsx
+04-11-2025,26.6,84,0.8,2,bmkg_2025_10.xlsx
+05-11-2025,26.3,83,14.4,2,bmkg_2025_10.xlsx
+06-11-2025,27.1,78,0,4,bmkg_2025_10.xlsx
+07-11-2025,27.8,81,8888,5,bmkg_2025_10.xlsx
+08-11-2025,26.2,84,8888,3,bmkg_2025_10.xlsx
+09-11-2025,27.2,78,1.7,5,bmkg_2025_10.xlsx
+10-11-2025,27.1,81,0,2,bmkg_2025_10.xlsx
+,,,,,bmkg_2025_10.xlsx
+,,,,,bmkg_2025_10.xlsx
+,,,,,bmkg_2025_10.xlsx
+KETERANGAN:,,,,,bmkg_2025_10.xlsx
+8888: Data tidak terukur,,,,,bmkg_2025_10.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2025_10.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2025_10.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2025_10.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2025_10.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2025_10.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2025_11.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2025_11.xlsx
+,BUJUR,:  106.75000,,,bmkg_2025_11.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2025_11.xlsx
+,,,,,bmkg_2025_11.xlsx
+,,,,,bmkg_2025_11.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2025_11.xlsx
+11-11-2025,26.2,84,1,3,bmkg_2025_11.xlsx
+12-11-2025,26.5,85,2.3,3,bmkg_2025_11.xlsx
+13-11-2025,25.8,85,1.2,2,bmkg_2025_11.xlsx
+14-11-2025,25.3,88,8888,3,bmkg_2025_11.xlsx
+15-11-2025,26.9,80,7.1,3,bmkg_2025_11.xlsx
+16-11-2025,27.5,81,0,1,bmkg_2025_11.xlsx
+17-11-2025,27.5,79,8888,2,bmkg_2025_11.xlsx
+18-11-2025,23.8,94,0.2,2,bmkg_2025_11.xlsx
+19-11-2025,26.2,85,37.4,2,bmkg_2025_11.xlsx
+20-11-2025,25.9,89,0.2,2,bmkg_2025_11.xlsx
+21-11-2025,26.9,79,2.5,4,bmkg_2025_11.xlsx
+22-11-2025,26.7,82,0,2,bmkg_2025_11.xlsx
+23-11-2025,25.3,87,38.8,3,bmkg_2025_11.xlsx
+24-11-2025,27.4,77,17.5,2,bmkg_2025_11.xlsx
+25-11-2025,26.5,78,0,2,bmkg_2025_11.xlsx
+26-11-2025,27.2,78,0,2,bmkg_2025_11.xlsx
+27-11-2025,27.5,80,0,2,bmkg_2025_11.xlsx
+28-11-2025,28.6,75,0,3,bmkg_2025_11.xlsx
+29-11-2025,27.2,81,0,2,bmkg_2025_11.xlsx
+30-11-2025,25.8,86,0,2,bmkg_2025_11.xlsx
+01-12-2025,26,88,79.4,2,bmkg_2025_11.xlsx
+02-12-2025,26.5,86,27.2,2,bmkg_2025_11.xlsx
+03-12-2025,27,86,0.6,2,bmkg_2025_11.xlsx
+04-12-2025,24.4,91,3.6,2,bmkg_2025_11.xlsx
+05-12-2025,25.8,84,38.9,2,bmkg_2025_11.xlsx
+06-12-2025,25.4,89,4.8,2,bmkg_2025_11.xlsx
+07-12-2025,26.7,86,5,2,bmkg_2025_11.xlsx
+08-12-2025,26.1,86,0,2,bmkg_2025_11.xlsx
+09-12-2025,26.4,86,2.2,2,bmkg_2025_11.xlsx
+10-12-2025,26,83,0,3,bmkg_2025_11.xlsx
+11-12-2025,25.5,94,41.4,0,bmkg_2025_11.xlsx
+,,,,,bmkg_2025_11.xlsx
+,,,,,bmkg_2025_11.xlsx
+,,,,,bmkg_2025_11.xlsx
+KETERANGAN:,,,,,bmkg_2025_11.xlsx
+8888: Data tidak terukur,,,,,bmkg_2025_11.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2025_11.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2025_11.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2025_11.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2025_11.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2025_11.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2025_12.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2025_12.xlsx
+,BUJUR,:  106.75000,,,bmkg_2025_12.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2025_12.xlsx
+,,,,,bmkg_2025_12.xlsx
+,,,,,bmkg_2025_12.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2025_12.xlsx
+12-12-2025,27.1,84,7.1,2,bmkg_2025_12.xlsx
+13-12-2025,26.8,85,0.2,2,bmkg_2025_12.xlsx
+14-12-2025,26.4,86,4,2,bmkg_2025_12.xlsx
+15-12-2025,26.2,85,3.6,3,bmkg_2025_12.xlsx
+16-12-2025,24.7,90,0.4,2,bmkg_2025_12.xlsx
+17-12-2025,26.8,84,34.6,3,bmkg_2025_12.xlsx
+18-12-2025,24.8,94,0.2,1,bmkg_2025_12.xlsx
+19-12-2025,24.2,96,11.1,3,bmkg_2025_12.xlsx
+20-12-2025,24.7,93,18.7,1,bmkg_2025_12.xlsx
+21-12-2025,25.1,94,31.7,3,bmkg_2025_12.xlsx
+22-12-2025,26.5,88,12,3,bmkg_2025_12.xlsx
+23-12-2025,27.3,86,0.2,3,bmkg_2025_12.xlsx
+24-12-2025,26.2,86,3.6,2,bmkg_2025_12.xlsx
+25-12-2025,26.7,86,0,2,bmkg_2025_12.xlsx
+26-12-2025,26.9,84,20.8,3,bmkg_2025_12.xlsx
+27-12-2025,28.6,76,0.2,1,bmkg_2025_12.xlsx
+28-12-2025,26.5,87,0,2,bmkg_2025_12.xlsx
+29-12-2025,25.7,86,13.4,2,bmkg_2025_12.xlsx
+30-12-2025,24.4,91,29,2,bmkg_2025_12.xlsx
+31-12-2025,25.1,92,54.2,2,bmkg_2025_12.xlsx
+01-01-2026,24.2,94,17.4,2,bmkg_2025_12.xlsx
+02-01-2026,24.9,91,5.4,4,bmkg_2025_12.xlsx
+03-01-2026,24.3,88,27.4,3,bmkg_2025_12.xlsx
+04-01-2026,26.1,87,4.8,2,bmkg_2025_12.xlsx
+05-01-2026,27.3,83,0,2,bmkg_2025_12.xlsx
+06-01-2026,27.3,82,0,4,bmkg_2025_12.xlsx
+07-01-2026,25.5,93,23.2,2,bmkg_2025_12.xlsx
+08-01-2026,25.8,86,6.6,2,bmkg_2025_12.xlsx
+09-01-2026,25.5,89,4.4,2,bmkg_2025_12.xlsx
+10-01-2026,25.2,88,6.4,3,bmkg_2025_12.xlsx
+11-01-2026,24.2,94,2.4,2,bmkg_2025_12.xlsx
+,,,,,bmkg_2025_12.xlsx
+,,,,,bmkg_2025_12.xlsx
+,,,,,bmkg_2025_12.xlsx
+KETERANGAN:,,,,,bmkg_2025_12.xlsx
+8888: Data tidak terukur,,,,,bmkg_2025_12.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2025_12.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2025_12.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2025_12.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2025_12.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2025_12.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2026_01.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2026_01.xlsx
+,BUJUR,:  106.75000,,,bmkg_2026_01.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2026_01.xlsx
+,,,,,bmkg_2026_01.xlsx
+,,,,,bmkg_2026_01.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2026_01.xlsx
+12-01-2026,22.9,96,49.6,2,bmkg_2026_01.xlsx
+13-01-2026,24.1,93,7.6,2,bmkg_2026_01.xlsx
+14-01-2026,23.9,95,14.6,4,bmkg_2026_01.xlsx
+15-01-2026,24.1,92,28.6,3,bmkg_2026_01.xlsx
+16-01-2026,25.8,85,1.4,3,bmkg_2026_01.xlsx
+17-01-2026,25.2,94,11,2,bmkg_2026_01.xlsx
+18-01-2026,24.9,93,15.2,1,bmkg_2026_01.xlsx
+19-01-2026,25,89,0.4,2,bmkg_2026_01.xlsx
+20-01-2026,24.5,89,21.4,2,bmkg_2026_01.xlsx
+21-01-2026,23.3,95,24.4,3,bmkg_2026_01.xlsx
+22-01-2026,24.4,92,8.2,3,bmkg_2026_01.xlsx
+23-01-2026,23.5,97,52.2,2,bmkg_2026_01.xlsx
+24-01-2026,25.2,91,29.8,3,bmkg_2026_01.xlsx
+25-01-2026,26.1,87,3.2,2,bmkg_2026_01.xlsx
+26-01-2026,26.4,83,1.2,2,bmkg_2026_01.xlsx
+27-01-2026,26,86,1.2,3,bmkg_2026_01.xlsx
+28-01-2026,24.1,96,15.2,2,bmkg_2026_01.xlsx
+29-01-2026,24.8,93,54.7,2,bmkg_2026_01.xlsx
+30-01-2026,25.2,87,61.4,2,bmkg_2026_01.xlsx
+31-01-2026,25.7,90,0,3,bmkg_2026_01.xlsx
+01-02-2026,25.3,90,0.1,2,bmkg_2026_01.xlsx
+02-02-2026,25.5,86,2.6,2,bmkg_2026_01.xlsx
+03-02-2026,26.4,84,8888,2,bmkg_2026_01.xlsx
+04-02-2026,24.9,90,0,3,bmkg_2026_01.xlsx
+05-02-2026,24.9,88,16.8,3,bmkg_2026_01.xlsx
+06-02-2026,25.8,83,1,2,bmkg_2026_01.xlsx
+07-02-2026,24.9,92,0.2,1,bmkg_2026_01.xlsx
+08-02-2026,25.7,86,18.8,3,bmkg_2026_01.xlsx
+09-02-2026,24.3,92,2.4,1,bmkg_2026_01.xlsx
+10-02-2026,25.5,90,1.7,2,bmkg_2026_01.xlsx
+11-02-2026,24.6,91,0.8,3,bmkg_2026_01.xlsx
+,,,,,bmkg_2026_01.xlsx
+,,,,,bmkg_2026_01.xlsx
+,,,,,bmkg_2026_01.xlsx
+KETERANGAN:,,,,,bmkg_2026_01.xlsx
+8888: Data tidak terukur,,,,,bmkg_2026_01.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2026_01.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2026_01.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2026_01.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2026_01.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2026_01.xlsx
+,NAMA STASIUN,:  Stasiun Klimatologi Jawa Barat,,,bmkg_2026_02.xlsx
+,LINTANG,:  -6.50000,,,bmkg_2026_02.xlsx
+,BUJUR,:  106.75000,,,bmkg_2026_02.xlsx
+,ELEVASI,:  207 Meter,,,bmkg_2026_02.xlsx
+,,,,,bmkg_2026_02.xlsx
+,,,,,bmkg_2026_02.xlsx
+TANGGAL,TAVG,RH_AVG,RR,FF_AVG,bmkg_2026_02.xlsx
+12-02-2026,24.2,93,3.6,2,bmkg_2026_02.xlsx
+13-02-2026,25.9,87,30,2,bmkg_2026_02.xlsx
+14-02-2026,26.3,86,0,2,bmkg_2026_02.xlsx
+15-02-2026,26.5,86,3.4,2,bmkg_2026_02.xlsx
+16-02-2026,25.2,94,0,2,bmkg_2026_02.xlsx
+17-02-2026,24.6,91,17.1,2,bmkg_2026_02.xlsx
+18-02-2026,25,90,17,1,bmkg_2026_02.xlsx
+19-02-2026,25.2,96,0.8,1,bmkg_2026_02.xlsx
+20-02-2026,25.2,89,58.4,2,bmkg_2026_02.xlsx
+21-02-2026,26.1,89,0.4,2,bmkg_2026_02.xlsx
+22-02-2026,26.3,91,8888,1,bmkg_2026_02.xlsx
+23-02-2026,24.4,91,17.4,3,bmkg_2026_02.xlsx
+24-02-2026,25.9,81,0.1,2,bmkg_2026_02.xlsx
+25-02-2026,26.2,82,0.2,3,bmkg_2026_02.xlsx
+26-02-2026,27,80,0,3,bmkg_2026_02.xlsx
+27-02-2026,26.1,85,0.8,5,bmkg_2026_02.xlsx
+28-02-2026,25.2,85,10.2,2,bmkg_2026_02.xlsx
+01-03-2026,26.3,85,1,2,bmkg_2026_02.xlsx
+02-03-2026,25.8,90,0.2,3,bmkg_2026_02.xlsx
+03-03-2026,25.4,86,23.6,5,bmkg_2026_02.xlsx
+04-03-2026,24.5,90,25.3,5,bmkg_2026_02.xlsx
+05-03-2026,25.4,86,2.3,1,bmkg_2026_02.xlsx
+06-03-2026,25.2,90,4.8,3,bmkg_2026_02.xlsx
+07-03-2026,23.9,94,9.3,2,bmkg_2026_02.xlsx
+08-03-2026,24.8,93,20.4,1,bmkg_2026_02.xlsx
+09-03-2026,26,89,22.2,2,bmkg_2026_02.xlsx
+10-03-2026,26,84,1.8,2,bmkg_2026_02.xlsx
+11-03-2026,25.6,84,6,1,bmkg_2026_02.xlsx
+12-03-2026,26,84,29,1,bmkg_2026_02.xlsx
+13-03-2026,26.4,78,8888,1,bmkg_2026_02.xlsx
+14-03-2026,25.7,82,0,2,bmkg_2026_02.xlsx
+,,,,,bmkg_2026_02.xlsx
+,,,,,bmkg_2026_02.xlsx
+,,,,,bmkg_2026_02.xlsx
+KETERANGAN:,,,,,bmkg_2026_02.xlsx
+8888: Data tidak terukur,,,,,bmkg_2026_02.xlsx
+9999: Tidak Ada Data (tidak dilakukan pengukuran),,,,,bmkg_2026_02.xlsx
+Tavg: Temperatur rata-rata(°C),,,,,bmkg_2026_02.xlsx
+RH_avg: Kelembapan rata-rata(%),,,,,bmkg_2026_02.xlsx
+RR: Curah hujan(mm),,,,,bmkg_2026_02.xlsx
+ff_avg: Kecepatan angin rata-rata(m/s),,,,,bmkg_2026_02.xlsx
