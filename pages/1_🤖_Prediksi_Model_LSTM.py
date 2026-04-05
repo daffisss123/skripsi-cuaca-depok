@@ -15,80 +15,115 @@ st.set_page_config(
 )
 
 # =========================
-# STYLE  (sama persis dengan app.py — salin blok STYLE dari app.py ke sini)
+# STYLE — Light Premium
 # =========================
-STYLE = """
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+STYLE = '''
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
 <style>
-html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
-.stApp { background: linear-gradient(150deg, #eef4fb 0%, #ddeaf8 50%, #e8f1fa 100%); min-height: 100vh; }
-[data-testid="stSidebar"] { background: #ffffff !important; border-right: 1px solid #d4e2f0 !important; box-shadow: 2px 0 12px rgba(30,80,160,0.06); }
-[data-testid="stSidebar"] * { color: #2c4a6e !important; }
-header[data-testid="stHeader"] { background: rgba(238,244,251,0.92) !important; backdrop-filter: blur(8px); border-bottom: 1px solid #c8ddf0; }
-header[data-testid="stHeader"]::before { background: transparent !important; }
-header[data-testid="stHeader"] button, header[data-testid="stHeader"] a, header[data-testid="stHeader"] svg { color: #2c4a6e !important; fill: #2c4a6e !important; }
-[data-testid="stDecoration"] { display: none !important; }
+html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif; }
+.stApp { background: linear-gradient(160deg, #f0f4ff 0%, #e8f0fe 50%, #f5f7ff 100%); min-height: 100vh; }
+[data-testid="stSidebar"] {
+    background: rgba(255,255,255,0.97) !important;
+    border-right: 1px solid rgba(99,130,255,0.12);
+    box-shadow: 2px 0 16px rgba(99,130,255,0.07);
+}
 .page-header {
-    background: linear-gradient(135deg, #1a6bc4 0%, #1252a3 100%);
-    border-radius: 20px; padding: 2rem 2.4rem; margin-bottom: 1.8rem;
-    position: relative; overflow: hidden; box-shadow: 0 8px 32px rgba(26,107,196,0.22);
+    background: linear-gradient(135deg, #4f8ef7 0%, #2563eb 60%, #1d4ed8 100%);
+    border-radius: 24px;
+    padding: 1.8rem 2.2rem; margin-bottom: 1.8rem;
+    position: relative; overflow: hidden;
+    box-shadow: 0 8px 32px rgba(37,99,235,0.22);
 }
 .page-header::before {
-    content: ""; position: absolute; top: -80px; right: -80px;
-    width: 300px; height: 300px;
+    content: ""; position: absolute; top: -60px; right: -60px;
+    width: 240px; height: 240px;
     background: radial-gradient(circle, rgba(255,255,255,0.12) 0%, transparent 70%);
     border-radius: 50%; pointer-events: none;
 }
 .page-badge {
-    display: inline-block; background: rgba(255,255,255,0.2);
-    border: 1px solid rgba(255,255,255,0.35); color: #e0f0ff;
-    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase;
-    padding: 0.25rem 0.8rem; border-radius: 20px; margin-bottom: 0.8rem;
+    display: inline-block; background: rgba(255,255,255,0.22);
+    border: 1px solid rgba(255,255,255,0.38); color: #fff;
+    font-size: 0.73rem; font-weight: 600; letter-spacing: 0.09em;
+    text-transform: uppercase; padding: 0.26rem 0.75rem;
+    border-radius: 20px; margin-bottom: 0.7rem;
 }
-.page-title { font-size: 2.1rem; font-weight: 800; color: #fff; margin: 0 0 0.4rem; letter-spacing: -0.5px; }
-.page-sub { color: rgba(255,255,255,0.82); font-size: 0.95rem; line-height: 1.65; max-width: 640px; margin: 0; }
+.page-title { font-size: 2rem; font-weight: 800; color: #fff; margin: 0 0 0.4rem 0; letter-spacing: -0.5px; }
+.page-sub { color: rgba(255,255,255,0.82); font-size: 0.95rem; margin: 0; line-height: 1.6; max-width: 600px; }
 .section-title {
-    font-size: 1.05rem; font-weight: 700; color: #1a3a5c;
-    margin: 1.8rem 0 0.85rem; display: flex; align-items: center; gap: 0.45rem;
+    font-size: 1.08rem; font-weight: 700; color: #1e3a5f;
+    margin: 1.8rem 0 0.9rem 0; display: flex; align-items: center; gap: 0.5rem;
 }
 .section-title::after {
-    content: ""; flex: 1; height: 2px;
-    background: linear-gradient(90deg, #b8d4f0, transparent);
-    margin-left: 0.4rem; border-radius: 2px;
+    content: ""; flex: 1; height: 1px;
+    background: linear-gradient(90deg, rgba(37,99,235,0.2), transparent);
+    margin-left: 0.4rem;
 }
 div[data-testid="stMetric"] {
-    background: #ffffff !important; border: 1px solid #c8ddf0 !important;
-    border-radius: 16px !important; padding: 1.1rem 1rem !important;
-    box-shadow: 0 2px 12px rgba(30,80,160,0.07);
-    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    background: #ffffff !important;
+    border: 1px solid rgba(99,130,255,0.15) !important;
+    border-radius: 18px !important; padding: 1.15rem 1rem !important;
+    box-shadow: 0 2px 12px rgba(37,99,235,0.07);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-div[data-testid="stMetric"]:hover { transform: translateY(-3px); box-shadow: 0 6px 24px rgba(26,107,196,0.14) !important; }
-div[data-testid="stMetric"] label { color: #5580a8 !important; font-size: 0.76rem !important; font-weight: 600 !important; text-transform: uppercase !important; letter-spacing: 0.06em !important; }
-div[data-testid="stMetric"] [data-testid="stMetricValue"] { color: #0f2d56 !important; font-size: 1.7rem !important; font-weight: 700 !important; font-family: 'Space Mono', monospace !important; }
-.info-card {
-    background: #e8f3ff; border: 1px solid #b8d4f0; border-left: 4px solid #1a6bc4;
-    border-radius: 12px; padding: 0.9rem 1.2rem; color: #1a3a5c;
-    font-size: 0.88rem; line-height: 1.6; margin-bottom: 1rem;
-}
-.pred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 0.65rem; margin-top: 0.5rem; }
+div[data-testid="stMetric"]:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(37,99,235,0.14) !important; }
+div[data-testid="stMetric"] label { color: #5b7ba8 !important; font-size: 0.78rem !important; font-weight: 600 !important; text-transform: uppercase !important; letter-spacing: 0.06em !important; }
+div[data-testid="stMetric"] [data-testid="stMetricValue"] { color: #1e3a5f !important; font-size: 1.75rem !important; font-weight: 700 !important; font-family: 'Space Mono', monospace !important; }
+.pred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 0.7rem; margin-top: 0.5rem; }
 .pred-card {
-    background: #ffffff; border: 1px solid #c8ddf0; border-radius: 16px;
-    padding: 1.1rem 0.6rem; text-align: center;
-    box-shadow: 0 2px 8px rgba(30,80,160,0.07);
-    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    background: #ffffff; border: 1px solid rgba(99,130,255,0.13);
+    border-radius: 18px; padding: 1.1rem 0.7rem; text-align: center;
+    box-shadow: 0 2px 10px rgba(37,99,235,0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.pred-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(26,107,196,0.14); border-color: #91c0f0; }
-.pred-day { font-size: 0.72rem; font-weight: 700; color: #1a6bc4; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.4rem; }
-.pred-temp { font-size: 1.45rem; font-weight: 800; font-family: 'Space Mono', monospace; margin: 0.25rem 0; }
-.pred-unit { font-size: 0.74rem; color: #5580a8; font-weight: 600; }
-.pred-label { font-size: 0.68rem; color: #9ab8d8; margin-top: 0.25rem; }
-div[data-testid="stExpander"] { background: #ffffff !important; border: 1px solid #c8ddf0 !important; border-radius: 14px !important; box-shadow: 0 2px 8px rgba(30,80,160,0.05); }
-div[data-testid="stExpander"] summary { color: #1a3a5c !important; font-weight: 600 !important; }
-[data-testid="stSlider"] label { color: #1a3a5c !important; font-weight: 600 !important; font-size: 0.9rem !important; }
-.footer-bar { text-align:center; color:#8aabcc; font-size:0.8rem; margin-top:2.5rem; padding-top:1rem; border-top:1px solid #c8ddf0; }
-@media (max-width: 560px) { .page-title { font-size: 1.5rem; } .pred-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); } }
+.pred-card:hover { transform: translateY(-4px); box-shadow: 0 10px 28px rgba(37,99,235,0.13); border-color: rgba(37,99,235,0.22); }
+.pred-day { font-size: 0.73rem; font-weight: 700; color: #2563eb; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.45rem; }
+.pred-temp { font-size: 1.5rem; font-weight: 800; color: #1e3a5f; font-family: 'Space Mono', monospace; margin: 0.3rem 0; }
+.pred-unit { font-size: 0.75rem; color: #5b7ba8; font-weight: 600; }
+.pred-label { font-size: 0.7rem; color: #94a3b8; margin-top: 0.3rem; }
+.info-card {
+    background: #eff6ff; border: 1px solid #bfdbfe;
+    border-left: 3px solid #2563eb; border-radius: 12px;
+    padding: 1rem 1.2rem; color: #1e40af; font-size: 0.88rem;
+    margin-bottom: 0.8rem; line-height: 1.6;
+}
+.corr-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.2rem; }
+.corr-card {
+    background: #ffffff; border: 1px solid rgba(99,130,255,0.15);
+    border-radius: 18px; padding: 1.4rem 1rem; text-align: center;
+    box-shadow: 0 2px 10px rgba(37,99,235,0.06);
+    transition: transform 0.2s ease;
+}
+.corr-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(37,99,235,0.12); }
+.corr-label { font-size: 0.78rem; color: #5b7ba8; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.5rem; }
+.corr-value { font-size: 2.2rem; font-weight: 800; color: #1e3a5f; font-family: 'Space Mono', monospace; }
+.corr-sub { font-size: 0.72rem; color: #94a3b8; margin-top: 0.3rem; }
+.footer-bar { text-align:center; color:#94a3b8; font-size:0.8rem; margin-top:2.5rem; padding-top:1rem; border-top:1px solid rgba(99,130,255,0.12); }
+div[data-testid="stExpander"] {
+    background: #ffffff !important;
+    border: 1px solid rgba(99,130,255,0.13) !important;
+    border-radius: 14px !important;
+    box-shadow: 0 2px 8px rgba(37,99,235,0.05);
+}
+div[data-testid="stExpander"] summary { color: #2563eb !important; font-weight: 600 !important; }
+[data-testid="stSlider"] label { color: #1e3a5f !important; font-weight: 600 !important; font-size: 0.9rem !important; }
+@media (max-width: 640px) {
+    .page-title { font-size: 1.5rem; }
+    .pred-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); }
+    .corr-row { grid-template-columns: 1fr; }
+    .corr-value { font-size: 1.7rem; }
+}
+header[data-testid="stHeader"] {
+    background: rgba(240,244,255,0.97) !important;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(99,130,255,0.1);
+}
+header[data-testid="stHeader"]::before { background: transparent !important; }
+header[data-testid="stHeader"] button,
+header[data-testid="stHeader"] a { color: #2563eb !important; }
+header[data-testid="stHeader"] svg { fill: #2563eb !important; }
+[data-testid="stDecoration"] { display: none !important; }
 </style>
-"""
+'''
 st.markdown(STYLE, unsafe_allow_html=True)
 
 # =========================
@@ -188,14 +223,14 @@ for _, row in df_pred.iterrows():
     hari = row['Tanggal'].strftime('%a')
     tgl  = row['Tanggal'].strftime('%d %b')
     suhu = row['Prediksi Suhu Maksimum (°C)']
-    if suhu >= 35:   warna = '#c82020'
-    elif suhu >= 33: warna = '#c86000'
-    elif suhu >= 30: warna = '#a08000'
-    else:            warna = '#1a6bc4'
+    if suhu >= 35:     warna = '#ef4444'
+    elif suhu >= 33:   warna = '#f97316'
+    elif suhu >= 30:   warna = '#eab308'
+    else:              warna = '#2563eb'
     cards_html += (
         '<div class="pred-card">'
         f'<div class="pred-day">{hari}<br>'
-        f'<span style="font-weight:400;color:#9ab8d8;font-size:0.66rem">{tgl}</span></div>'
+        f'<span style="font-weight:400;color:#94a3b8;font-size:0.67rem">{tgl}</span></div>'
         f'<div class="pred-temp" style="color:{warna};">{suhu:.1f}</div>'
         '<div class="pred-unit">°C</div>'
         '<div class="pred-label">Prediksi LSTM</div>'
@@ -211,7 +246,7 @@ st.markdown('<div class="section-title">📊 Statistik Prediksi</div>', unsafe_a
 col1, col2, col3 = st.columns(3)
 col1.metric('🔥 Suhu Tertinggi', f'{hasil_asli.max():.1f} °C')
 col2.metric('❄️ Suhu Terendah', f'{hasil_asli.min():.1f} °C')
-col3.metric('⚖️ Rata-rata',     f'{hasil_asli.mean():.1f} °C')
+col3.metric('⚖️ Rata-rata', f'{hasil_asli.mean():.1f} °C')
 
 # =========================
 # GRAFIK HISTORIS
@@ -219,10 +254,12 @@ col3.metric('⚖️ Rata-rata',     f'{hasil_asli.mean():.1f} °C')
 st.markdown('<div class="section-title">📈 Riwayat Suhu Maks (120 Hari Terakhir)</div>', unsafe_allow_html=True)
 chart_hist = (
     df_hist[["tanggal", "temperature_2m_max"]]
-    .copy().set_index("tanggal").tail(120)
+    .copy()
+    .set_index("tanggal")
+    .tail(120)
     .rename(columns={"temperature_2m_max": "Suhu Maks (°C)"})
 )
-st.line_chart(chart_hist, color=["#1a6bc4"])
+st.line_chart(chart_hist, color=["#2563eb"])
 
 # =========================
 # EXPANDER INFO MODEL
