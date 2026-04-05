@@ -25,227 +25,272 @@ LON_DEPOK = 106.7942
 CACHE_FILE = Path("data/processed/live_weather_cache.json")
 
 KECAMATAN = [
-    {"nama": "Beji", "lat": -6.3750, "lon": 106.8300},
-    {"nama": "Bojongsari", "lat": -6.4400, "lon": 106.7500},
-    {"nama": "Cilodong", "lat": -6.4100, "lon": 106.8400},
-    {"nama": "Cimanggis", "lat": -6.3700, "lon": 106.8800},
-    {"nama": "Cinere", "lat": -6.3600, "lon": 106.7800},
-    {"nama": "Cipayung", "lat": -6.4300, "lon": 106.8600},
-    {"nama": "Limo", "lat": -6.3900, "lon": 106.7700},
+    {"nama": "Beji",         "lat": -6.3750, "lon": 106.8300},
+    {"nama": "Bojongsari",   "lat": -6.4400, "lon": 106.7500},
+    {"nama": "Cilodong",     "lat": -6.4100, "lon": 106.8400},
+    {"nama": "Cimanggis",    "lat": -6.3700, "lon": 106.8800},
+    {"nama": "Cinere",       "lat": -6.3600, "lon": 106.7800},
+    {"nama": "Cipayung",     "lat": -6.4300, "lon": 106.8600},
+    {"nama": "Limo",         "lat": -6.3900, "lon": 106.7700},
     {"nama": "Pancoran Mas", "lat": -6.4000, "lon": 106.8200},
-    {"nama": "Sawangan", "lat": -6.4500, "lon": 106.7700},
-    {"nama": "Sukmajaya", "lat": -6.3800, "lon": 106.8500},
-    {"nama": "Tapos", "lat": -6.3600, "lon": 106.8900},
+    {"nama": "Sawangan",     "lat": -6.4500, "lon": 106.7700},
+    {"nama": "Sukmajaya",    "lat": -6.3800, "lon": 106.8500},
+    {"nama": "Tapos",        "lat": -6.3600, "lon": 106.8900},
 ]
 
 # =========================
-# STYLE PREMIUM - DARK DASHBOARD
+# SHARED STYLE
 # =========================
-st.markdown("""
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+STYLE = """
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
 <style>
+/* ── Reset & base ── */
 html, body, [class*="css"] {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
+
+/* ── App background — light blue-grey ── */
 .stApp {
-    background: linear-gradient(160deg, #0d1b2a 0%, #1b2d45 40%, #0f2337 100%);
+    background: linear-gradient(150deg, #eef4fb 0%, #ddeaf8 50%, #e8f1fa 100%);
     min-height: 100vh;
 }
+
+/* ── Sidebar ── */
 [data-testid="stSidebar"] {
-    background: rgba(10, 20, 35, 0.97) !important;
-    border-right: 1px solid rgba(255,255,255,0.06);
+    background: #ffffff !important;
+    border-right: 1px solid #d4e2f0 !important;
+    box-shadow: 2px 0 12px rgba(30,80,160,0.06);
 }
-.hero-banner {
-    background: linear-gradient(135deg, rgba(30,80,160,0.5) 0%, rgba(14,42,90,0.68) 100%);
-    border: 1px solid rgba(100,160,255,0.22);
-    border-radius: 24px;
-    padding: 2.2rem 2.4rem;
+[data-testid="stSidebar"] * { color: #2c4a6e !important; }
+[data-testid="stSidebar"] a:hover { color: #1a6bc4 !important; }
+
+/* ── Streamlit header bar ── */
+header[data-testid="stHeader"] {
+    background: rgba(238,244,251,0.92) !important;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid #c8ddf0;
+}
+header[data-testid="stHeader"]::before { background: transparent !important; }
+header[data-testid="stHeader"] button,
+header[data-testid="stHeader"] a,
+header[data-testid="stHeader"] svg { color: #2c4a6e !important; fill: #2c4a6e !important; }
+[data-testid="stDecoration"] { display: none !important; }
+
+/* ── Hero / page header card ── */
+.hero-banner, .page-header {
+    background: linear-gradient(135deg, #1a6bc4 0%, #1252a3 100%);
+    border-radius: 20px;
+    padding: 2rem 2.4rem;
     margin-bottom: 1.8rem;
     position: relative;
     overflow: hidden;
-    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 32px rgba(26,107,196,0.22);
 }
-.hero-banner::before {
+.hero-banner::before, .page-header::before {
     content: "";
-    position: absolute;
-    top: -70px; right: -70px;
-    width: 280px; height: 280px;
-    background: radial-gradient(circle, rgba(56,152,255,0.16) 0%, transparent 70%);
+    position: absolute; top: -80px; right: -80px;
+    width: 300px; height: 300px;
+    background: radial-gradient(circle, rgba(255,255,255,0.12) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
-.hero-badge {
+
+/* Badge inside hero */
+.hero-badge, .page-badge {
     display: inline-block;
-    background: rgba(56,152,255,0.18);
-    border: 1px solid rgba(56,152,255,0.38);
-    color: #7ec8ff;
-    font-size: 0.73rem;
-    font-weight: 600;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    padding: 0.26rem 0.75rem;
-    border-radius: 20px;
-    margin-bottom: 0.9rem;
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.35);
+    color: #e0f0ff;
+    font-size: 0.72rem; font-weight: 700;
+    letter-spacing: 0.09em; text-transform: uppercase;
+    padding: 0.25rem 0.8rem; border-radius: 20px;
+    margin-bottom: 0.8rem;
 }
-.hero-title {
-    font-size: 2.35rem;
-    font-weight: 800;
-    color: #ffffff;
-    margin: 0 0 0.45rem 0;
-    letter-spacing: -0.5px;
+.hero-title, .page-title {
+    font-size: 2.1rem; font-weight: 800;
+    color: #ffffff; margin: 0 0 0.4rem; letter-spacing: -0.5px;
 }
-.hero-sub {
-    color: #90b8e8;
-    font-size: 0.97rem;
-    margin: 0;
-    line-height: 1.65;
-    max-width: 640px;
+.hero-sub, .page-sub {
+    color: rgba(255,255,255,0.82);
+    font-size: 0.95rem; line-height: 1.65; max-width: 640px; margin: 0;
 }
+
+/* ── Section title ── */
 .section-title {
-    font-size: 1.12rem;
-    font-weight: 700;
-    color: #e2f0ff;
-    margin: 1.8rem 0 0.9rem 0;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    font-size: 1.05rem; font-weight: 700; color: #1a3a5c;
+    margin: 1.8rem 0 0.85rem;
+    display: flex; align-items: center; gap: 0.45rem;
 }
 .section-title::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: linear-gradient(90deg, rgba(100,160,255,0.28), transparent);
-    margin-left: 0.4rem;
+    content: ""; flex: 1; height: 2px;
+    background: linear-gradient(90deg, #b8d4f0, transparent);
+    margin-left: 0.4rem; border-radius: 2px;
 }
+
+/* ── Metric cards ── */
 div[data-testid="stMetric"] {
-    background: rgba(18, 48, 88, 0.55) !important;
-    border: 1px solid rgba(100,160,255,0.18) !important;
-    border-radius: 18px !important;
-    padding: 1.15rem 1rem !important;
-    backdrop-filter: blur(6px);
-    transition: transform 0.2s ease, border-color 0.2s ease;
+    background: #ffffff !important;
+    border: 1px solid #c8ddf0 !important;
+    border-radius: 16px !important;
+    padding: 1.1rem 1rem !important;
+    box-shadow: 0 2px 12px rgba(30,80,160,0.07);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 div[data-testid="stMetric"]:hover {
     transform: translateY(-3px);
-    border-color: rgba(100,160,255,0.42) !important;
+    box-shadow: 0 6px 24px rgba(26,107,196,0.14) !important;
 }
 div[data-testid="stMetric"] label {
-    color: #90b8e8 !important;
-    font-size: 0.78rem !important;
-    font-weight: 600 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 0.06em !important;
+    color: #5580a8 !important;
+    font-size: 0.76rem !important; font-weight: 600 !important;
+    text-transform: uppercase !important; letter-spacing: 0.06em !important;
 }
 div[data-testid="stMetric"] [data-testid="stMetricValue"] {
-    color: #ffffff !important;
-    font-size: 1.82rem !important;
-    font-weight: 700 !important;
+    color: #0f2d56 !important;
+    font-size: 1.7rem !important; font-weight: 700 !important;
     font-family: 'Space Mono', monospace !important;
 }
-.kondisi-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    background: rgba(56,152,255,0.13);
-    border: 1px solid rgba(56,152,255,0.28);
-    color: #a0d0ff;
-    font-size: 0.92rem;
-    font-weight: 600;
-    padding: 0.42rem 1.2rem;
-    border-radius: 40px;
-    margin-top: 0.7rem;
+
+/* ── Info card ── */
+.info-card {
+    background: #e8f3ff;
+    border: 1px solid #b8d4f0;
+    border-left: 4px solid #1a6bc4;
+    border-radius: 12px;
+    padding: 0.9rem 1.2rem;
+    color: #1a3a5c;
+    font-size: 0.88rem; line-height: 1.6;
+    margin-bottom: 1rem;
 }
+
+/* ── Forecast cards ── */
 .forecast-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 0.65rem;
-    margin-top: 0.4rem;
+    gap: 0.65rem; margin-top: 0.4rem;
+}
+@media (max-width: 900px) {
+    .forecast-grid { grid-template-columns: repeat(4, 1fr); }
+}
+@media (max-width: 560px) {
+    .forecast-grid { grid-template-columns: repeat(2, 1fr); }
+    .hero-title, .page-title { font-size: 1.5rem; }
+    .corr-row { grid-template-columns: 1fr; }
 }
 .forecast-card {
-    background: rgba(18, 48, 88, 0.5);
-    border: 1px solid rgba(100,160,255,0.13);
-    border-radius: 18px;
-    padding: 1rem 0.55rem;
-    text-align: center;
-    backdrop-filter: blur(6px);
-    transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+    background: #ffffff;
+    border: 1px solid #c8ddf0;
+    border-radius: 16px; padding: 1rem 0.5rem; text-align: center;
+    box-shadow: 0 2px 8px rgba(30,80,160,0.07);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 .forecast-card:hover {
     transform: translateY(-4px);
-    background: rgba(28, 68, 128, 0.65);
-    border-color: rgba(100,160,255,0.38);
+    box-shadow: 0 8px 24px rgba(26,107,196,0.14);
+    border-color: #91c0f0;
 }
 .fc-day {
-    font-size: 0.73rem;
-    font-weight: 700;
-    color: #7ec8ff;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    margin-bottom: 0.5rem;
+    font-size: 0.72rem; font-weight: 700; color: #1a6bc4;
+    text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.45rem;
 }
-.fc-icon  { font-size: 1.65rem; margin-bottom: 0.4rem; }
+.fc-icon  { font-size: 1.6rem; margin-bottom: 0.35rem; }
 .fc-label {
-    font-size: 0.7rem;
-    color: #90b8e8;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-    line-height: 1.3;
-    min-height: 2.2em;
+    font-size: 0.69rem; color: #5580a8; font-weight: 600;
+    line-height: 1.3; min-height: 2.2em; margin-bottom: 0.45rem;
 }
 .fc-temp {
-    font-size: 0.85rem;
-    font-weight: 700;
-    color: #fff;
-    font-family: 'Space Mono', monospace;
-    margin-bottom: 0.22rem;
+    font-size: 0.83rem; font-weight: 700; color: #0f2d56;
+    font-family: 'Space Mono', monospace; margin-bottom: 0.2rem;
 }
-.fc-detail { font-size: 0.7rem; color: #506078; margin-bottom: 0.12rem; }
-.legend-bar {
-    display: flex;
-    gap: 0.6rem;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 0.6rem;
-    font-size: 0.76rem;
-    font-weight: 600;
+.fc-detail { font-size: 0.69rem; color: #7a9dc0; margin-bottom: 0.1rem; }
+
+/* ── Condition badge ── */
+.kondisi-badge {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    background: #e0f0ff; border: 1px solid #91c0f0; color: #1252a3;
+    font-size: 0.92rem; font-weight: 600;
+    padding: 0.4rem 1.2rem; border-radius: 40px; margin-top: 0.6rem;
 }
-.legend-item { padding: 3px 12px; border-radius: 20px; }
-.footer-bar {
-    text-align: center;
-    color: #2a4060;
-    font-size: 0.8rem;
-    margin-top: 2.5rem;
-    padding-top: 1rem;
-    border-top: 1px solid rgba(100,160,255,0.09);
+
+/* ── Prediction cards (LSTM page) ── */
+.pred-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 0.65rem; margin-top: 0.5rem;
 }
+.pred-card {
+    background: #ffffff; border: 1px solid #c8ddf0;
+    border-radius: 16px; padding: 1.1rem 0.6rem; text-align: center;
+    box-shadow: 0 2px 8px rgba(30,80,160,0.07);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.pred-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(26,107,196,0.14);
+    border-color: #91c0f0;
+}
+.pred-day { font-size: 0.72rem; font-weight: 700; color: #1a6bc4; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.4rem; }
+.pred-temp { font-size: 1.45rem; font-weight: 800; font-family: 'Space Mono', monospace; margin: 0.25rem 0; }
+.pred-unit { font-size: 0.74rem; color: #5580a8; font-weight: 600; }
+.pred-label { font-size: 0.68rem; color: #9ab8d8; margin-top: 0.25rem; }
+
+/* ── Correlation cards ── */
+.corr-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.2rem; }
+.corr-card {
+    background: #ffffff; border: 1px solid #c8ddf0;
+    border-radius: 18px; padding: 1.4rem 1rem; text-align: center;
+    box-shadow: 0 2px 12px rgba(30,80,160,0.07);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.corr-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(26,107,196,0.14);
+    border-color: #91c0f0;
+}
+.corr-label { font-size: 0.77rem; color: #5580a8; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.5rem; }
+.corr-value { font-size: 2.1rem; font-weight: 800; color: #0f2d56; font-family: 'Space Mono', monospace; }
+.corr-sub { font-size: 0.71rem; color: #9ab8d8; margin-top: 0.3rem; }
+
+/* ── Expander ── */
+div[data-testid="stExpander"] {
+    background: #ffffff !important;
+    border: 1px solid #c8ddf0 !important;
+    border-radius: 14px !important;
+    box-shadow: 0 2px 8px rgba(30,80,160,0.05);
+}
+div[data-testid="stExpander"] summary { color: #1a3a5c !important; font-weight: 600 !important; }
+
+/* ── Slider ── */
+[data-testid="stSlider"] label { color: #1a3a5c !important; font-weight: 600 !important; font-size: 0.9rem !important; }
+
+/* ── Tabs ── */
 .stTabs [data-baseweb="tab-list"] { gap: 0.5rem; background: transparent; }
 .stTabs [data-baseweb="tab"] {
-    background: rgba(18,48,88,0.4);
-    border-radius: 10px;
-    color: #6080a0;
-    font-weight: 600;
-    border: 1px solid rgba(100,160,255,0.13);
+    background: #ffffff; border-radius: 10px; color: #5580a8;
+    font-weight: 600; border: 1px solid #c8ddf0;
 }
 .stTabs [aria-selected="true"] {
-    background: rgba(56,152,255,0.22) !important;
-    color: #ffffff !important;
-    border-color: rgba(56,152,255,0.38) !important;
+    background: #1a6bc4 !important; color: #ffffff !important;
+    border-color: #1a6bc4 !important;
 }
-/* ---- Header Streamlit (area putih kanan atas) ---- */
-header[data-testid="stHeader"] {
-    background: rgba(13, 27, 42, 0.95) !important;
-    backdrop-filter: blur(8px);
-    border-bottom: 1px solid rgba(100,160,255,0.08);
+
+/* ── Legend bar ── */
+.legend-bar {
+    display: flex; gap: 0.55rem; align-items: center;
+    flex-wrap: wrap; margin-top: 0.6rem;
+    font-size: 0.75rem; font-weight: 600;
 }
-header[data-testid="stHeader"]::before {
-    background: transparent !important;
+.legend-item { padding: 3px 11px; border-radius: 20px; }
+
+/* ── Footer ── */
+.footer-bar {
+    text-align: center; color: #8aabcc;
+    font-size: 0.8rem; margin-top: 2.5rem;
+    padding-top: 1rem; border-top: 1px solid #c8ddf0;
 }
-header[data-testid="stHeader"] button,
-header[data-testid="stHeader"] a { color: #90b8e8 !important; }
-header[data-testid="stHeader"] svg { fill: #90b8e8 !important; }
-[data-testid="stDecoration"] { display: none !important; }
 </style>
-""", unsafe_allow_html=True)
+"""
+st.markdown(STYLE, unsafe_allow_html=True)
 
 
 # =========================
@@ -253,58 +298,42 @@ header[data-testid="stHeader"] svg { fill: #90b8e8 !important; }
 # =========================
 def weather_label(code: int) -> str:
     mapping = {
-        0: "Cerah",
-        1: "Cerah Berawan",
-        2: "Berawan",
-        3: "Mendung",
-        45: "Berkabut",
-        48: "Berkabut",
-        51: "Gerimis Ringan",
-        53: "Gerimis",
-        55: "Gerimis Lebat",
-        61: "Hujan Ringan",
-        63: "Hujan Sedang",
-        65: "Hujan Lebat",
-        66: "Hujan Lebat",
-        67: "Hujan Lebat",
-        71: "Hujan Lebat",
-        73: "Hujan Lebat",
-        75: "Hujan Lebat",
+        0: "Cerah", 1: "Cerah Berawan", 2: "Berawan", 3: "Mendung",
+        45: "Berkabut", 48: "Berkabut",
+        51: "Gerimis Ringan", 53: "Gerimis", 55: "Gerimis Lebat",
+        61: "Hujan Ringan", 63: "Hujan Sedang", 65: "Hujan Lebat",
+        66: "Hujan Lebat", 67: "Hujan Lebat",
+        71: "Hujan Lebat", 73: "Hujan Lebat", 75: "Hujan Lebat",
         77: "Cuaca Ekstrem",
-        80: "Hujan Lokal Ringan",
-        81: "Hujan Lokal",
-        82: "Hujan Lokal Lebat",
-        85: "Cuaca Ekstrem",
-        86: "Cuaca Ekstrem",
-        95: "Badai Petir",
-        96: "Badai Petir",
-        99: "Badai Petir",
+        80: "Hujan Lokal Ringan", 81: "Hujan Lokal", 82: "Hujan Lokal Lebat",
+        85: "Cuaca Ekstrem", 86: "Cuaca Ekstrem",
+        95: "Badai Petir", 96: "Badai Petir", 99: "Badai Petir",
     }
     return mapping.get(int(code), "Tidak Diketahui")
 
 
 def weather_icon(code: int) -> str:
     c = int(code)
-    if c == 0:                        return "☀️"
-    elif c == 1:                      return "🌤️"
-    elif c == 2:                      return "⛅"
-    elif c == 3:                      return "☁️"
-    elif c in (45, 48):               return "🌫️"
-    elif c in (51, 53, 55):           return "🌦️"
-    elif c in (61, 63, 65, 66, 67):   return "🌧️"
-    elif c in (71, 73, 75, 77):       return "❄️"
-    elif c in (80, 81, 82):           return "🌧️"
-    elif c in (95, 96, 99):           return "⛈️"
+    if c == 0:                      return "☀️"
+    elif c == 1:                    return "🌤️"
+    elif c == 2:                    return "⛅"
+    elif c == 3:                    return "☁️"
+    elif c in (45, 48):             return "🌫️"
+    elif c in (51, 53, 55):         return "🌦️"
+    elif c in (61, 63, 65, 66, 67): return "🌧️"
+    elif c in (71, 73, 75, 77):     return "❄️"
+    elif c in (80, 81, 82):         return "🌧️"
+    elif c in (95, 96, 99):         return "⛈️"
     return "🌡️"
 
 
 def get_marker_colors(suhu):
-    if suhu is None:  return "#888888", "#555555"
-    if suhu >= 35:    return "#ff4444", "#ff7777"
-    if suhu >= 33:    return "#ff8c00", "#ffaa44"
-    if suhu >= 30:    return "#ffd700", "#ffe566"
-    if suhu >= 27:    return "#3898ff", "#66b5ff"
-    return "#00cfff", "#55e0ff"
+    if suhu is None:  return "#888888", "#aaaaaa"
+    if suhu >= 35:    return "#e03030", "#f06060"
+    if suhu >= 33:    return "#e07800", "#f0a030"
+    if suhu >= 30:    return "#c8a000", "#e0c020"
+    if suhu >= 27:    return "#1a6bc4", "#4090e0"
+    return "#0099bb", "#30bbd8"
 
 
 # =========================
@@ -313,24 +342,12 @@ def get_marker_colors(suhu):
 @st.cache_data(ttl=3600)
 def get_live_weather():
     params = {
-        "latitude":  LAT_DEPOK,
-        "longitude": LON_DEPOK,
-        "current": [
-            "temperature_2m",
-            "relative_humidity_2m",
-            "precipitation",
-            "wind_speed_10m",
-            "weather_code",
-        ],
-        "daily": [
-            "weather_code",
-            "temperature_2m_max",
-            "temperature_2m_min",
-            "precipitation_sum",
-            "wind_speed_10m_max",
-        ],
-        "forecast_days": 7,
-        "timezone": "Asia/Jakarta",
+        "latitude": LAT_DEPOK, "longitude": LON_DEPOK,
+        "current": ["temperature_2m", "relative_humidity_2m", "precipitation",
+                    "wind_speed_10m", "weather_code"],
+        "daily": ["weather_code", "temperature_2m_max", "temperature_2m_min",
+                  "precipitation_sum", "wind_speed_10m_max"],
+        "forecast_days": 7, "timezone": "Asia/Jakarta",
     }
     try:
         r = requests.get("https://api.open-meteo.com/v1/forecast", params=params, timeout=30)
@@ -350,44 +367,26 @@ def get_kecamatan_weather():
     results = []
     for kec in KECAMATAN:
         params = {
-            "latitude":  kec["lat"],
-            "longitude": kec["lon"],
-            "current": [
-                "temperature_2m",
-                "relative_humidity_2m",
-                "precipitation",
-                "weather_code",
-            ],
+            "latitude": kec["lat"], "longitude": kec["lon"],
+            "current": ["temperature_2m", "relative_humidity_2m", "precipitation", "weather_code"],
             "timezone": "Asia/Jakarta",
         }
         try:
-            r = requests.get(
-                "https://api.open-meteo.com/v1/forecast",
-                params=params,
-                timeout=15,
-            )
+            r = requests.get("https://api.open-meteo.com/v1/forecast", params=params, timeout=15)
             r.raise_for_status()
             d = r.json()["current"]
             results.append({
-                "nama":       kec["nama"],
-                "lat":        kec["lat"],
-                "lon":        kec["lon"],
-                "suhu":       d["temperature_2m"],
-                "kelembaban": d["relative_humidity_2m"],
-                "hujan":      d["precipitation"],
-                "kondisi":    weather_label(d["weather_code"]),
-                "icon":       weather_icon(d["weather_code"]),
+                "nama": kec["nama"], "lat": kec["lat"], "lon": kec["lon"],
+                "suhu": d["temperature_2m"], "kelembaban": d["relative_humidity_2m"],
+                "hujan": d["precipitation"],
+                "kondisi": weather_label(d["weather_code"]),
+                "icon":    weather_icon(d["weather_code"]),
             })
         except Exception:
             results.append({
-                "nama":       kec["nama"],
-                "lat":        kec["lat"],
-                "lon":        kec["lon"],
-                "suhu":       None,
-                "kelembaban": None,
-                "hujan":      None,
-                "kondisi":    "Data N/A",
-                "icon":       "❓",
+                "nama": kec["nama"], "lat": kec["lat"], "lon": kec["lon"],
+                "suhu": None, "kelembaban": None, "hujan": None,
+                "kondisi": "Data N/A", "icon": "❓",
             })
     return results
 
@@ -397,7 +396,6 @@ def get_kecamatan_weather():
 # =========================
 live_data, live_source = get_live_weather()
 kec_weather = get_kecamatan_weather()
-
 
 # =========================
 # HERO BANNER
@@ -419,7 +417,6 @@ if live_source == "cache":
 elif live_source == "error":
     st.warning("Data live tidak tersedia saat ini.")
 
-
 # =========================
 # KONDISI SAAT INI
 # =========================
@@ -427,7 +424,6 @@ st.markdown('<div class="section-title">⚡ Kondisi Saat Ini</div>', unsafe_allo
 
 if live_data:
     cur = live_data["current"]
-
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("🌡️ Suhu",           f'{cur["temperature_2m"]:.1f} °C')
     c2.metric("💧 Kelembaban",      f'{cur["relative_humidity_2m"]:.0f} %')
@@ -445,7 +441,6 @@ if live_data:
 else:
     st.write("Data cuaca live tidak tersedia saat ini.")
 
-
 # =========================
 # PRAKIRAAN 7 HARI
 # =========================
@@ -455,11 +450,11 @@ if live_data:
     daily = live_data["daily"]
     df_daily = pd.DataFrame({
         "tanggal": pd.to_datetime(daily["time"]),
-        "code":    daily["weather_code"],
-        "tmax":    daily["temperature_2m_max"],
-        "tmin":    daily["temperature_2m_min"],
-        "hujan":   daily["precipitation_sum"],
-        "angin":   daily["wind_speed_10m_max"],
+        "code":  daily["weather_code"],
+        "tmax":  daily["temperature_2m_max"],
+        "tmin":  daily["temperature_2m_min"],
+        "hujan": daily["precipitation_sum"],
+        "angin": daily["wind_speed_10m_max"],
     })
 
     cards_html = '<div class="forecast-grid">'
@@ -471,7 +466,7 @@ if live_data:
         cards_html += (
             '<div class="forecast-card">'
             f'<div class="fc-day">{hari}<br>'
-            f'<span style="font-weight:400;color:#304860;font-size:0.67rem">{tgl}</span></div>'
+            f'<span style="font-weight:400;color:#9ab8d8;font-size:0.66rem">{tgl}</span></div>'
             f'<div class="fc-icon">{icon}</div>'
             f'<div class="fc-label">{label}</div>'
             f'<div class="fc-temp">{row["tmin"]:.0f}° &ndash; {row["tmax"]:.0f}°</div>'
@@ -482,7 +477,6 @@ if live_data:
     cards_html += '</div>'
     st.markdown(cards_html, unsafe_allow_html=True)
 
-
 # =========================
 # PETA CUACA PER KECAMATAN
 # =========================
@@ -491,41 +485,36 @@ st.markdown('<div class="section-title">🗺️ Peta Cuaca Per Kecamatan</div>',
 peta = folium.Map(
     location=[LAT_DEPOK, LON_DEPOK],
     zoom_start=12,
-    tiles="CartoDB dark_matter",
+    tiles="CartoDB positron",   # peta terang, selaras tema
 )
 
 for kec in kec_weather:
     color, fill = get_marker_colors(kec['suhu'])
-
-    suhu_str = f'{kec["suhu"]:.1f} °C' if kec['suhu'] is not None else 'N/A'
+    suhu_str = f'{kec["suhu"]:.1f} °C'   if kec['suhu']       is not None else 'N/A'
     kel_str  = f'{kec["kelembaban"]:.0f} %' if kec['kelembaban'] is not None else 'N/A'
-    huj_str  = f'{kec["hujan"]:.1f} mm' if kec['hujan'] is not None else 'N/A'
+    huj_str  = f'{kec["hujan"]:.1f} mm'  if kec['hujan']      is not None else 'N/A'
 
     popup_html = (
-        '<div style="font-family:sans-serif;background:#0d1b2a;color:#e0f0ff;'
+        '<div style="font-family:Inter,sans-serif;background:#fff;color:#0f2d56;'
         'border-radius:12px;padding:12px 16px;min-width:210px;'
-        'border:1px solid rgba(100,160,255,0.3);">'
+        'border:1px solid #c8ddf0;box-shadow:0 4px 16px rgba(30,80,160,0.12);">'
         f'<div style="font-size:1rem;font-weight:700;margin-bottom:4px;">'
         f'{kec["icon"]} Kec. {kec["nama"]}</div>'
-        f'<div style="font-size:0.8rem;color:#7ec8ff;margin-bottom:10px;">{kec["kondisi"]}</div>'
+        f'<div style="font-size:0.8rem;color:#1a6bc4;margin-bottom:10px;">{kec["kondisi"]}</div>'
         '<table style="width:100%;font-size:0.82rem;border-collapse:collapse;">'
-        f'<tr><td style="color:#607090;padding:3px 0;">🌡️ Suhu</td>'
+        f'<tr><td style="color:#5580a8;padding:3px 0;">🌡️ Suhu</td>'
         f'<td style="text-align:right;font-weight:700;color:{color};">{suhu_str}</td></tr>'
-        f'<tr><td style="color:#607090;padding:3px 0;">💧 Kelembaban</td>'
+        f'<tr><td style="color:#5580a8;padding:3px 0;">💧 Kelembaban</td>'
         f'<td style="text-align:right;font-weight:600;">{kel_str}</td></tr>'
-        f'<tr><td style="color:#607090;padding:3px 0;">🌧️ Hujan</td>'
+        f'<tr><td style="color:#5580a8;padding:3px 0;">🌧️ Hujan</td>'
         f'<td style="text-align:right;font-weight:600;">{huj_str}</td></tr>'
         '</table></div>'
     )
 
     folium.CircleMarker(
         location=[kec['lat'], kec['lon']],
-        radius=20,
-        color=color,
-        fill=True,
-        fill_color=fill,
-        fill_opacity=0.6,
-        weight=2.5,
+        radius=20, color=color, fill=True, fill_color=fill,
+        fill_opacity=0.55, weight=2.5,
         popup=folium.Popup(popup_html, max_width=250),
         tooltip=f"<b>{kec['nama']}</b> · {kec['icon']} {kec['kondisi']} · {suhu_str}",
     ).add_to(peta)
@@ -534,13 +523,12 @@ for kec in kec_weather:
         location=[kec['lat'], kec['lon']],
         icon=folium.DivIcon(
             html=(
-                '<div style="font-family:sans-serif;font-size:9px;font-weight:700;'
-                'color:white;text-shadow:0 1px 3px rgba(0,0,0,0.9);'
+                '<div style="font-family:Inter,sans-serif;font-size:9px;font-weight:700;'
+                'color:#0f2d56;text-shadow:0 1px 2px rgba(255,255,255,0.9);'
                 'text-align:center;white-space:nowrap;'
                 f'margin-top:-6px;margin-left:-35px;">{kec["nama"]}</div>'
             ),
-            icon_size=(90, 18),
-            icon_anchor=(0, 0),
+            icon_size=(90, 18), icon_anchor=(0, 0),
         ),
     ).add_to(peta)
 
@@ -548,34 +536,28 @@ st_folium(peta, use_container_width=True, height=500)
 
 st.markdown("""
 <div class="legend-bar">
-    <span style="color:#506070;">Legenda suhu:</span>
-    <span class="legend-item" style="background:#ff4444;color:#fff;">&ge;35&deg;C &mdash; Sangat Panas</span>
-    <span class="legend-item" style="background:#ff8c00;color:#fff;">33&ndash;35&deg;C &mdash; Panas</span>
-    <span class="legend-item" style="background:#ffd700;color:#111;">30&ndash;33&deg;C &mdash; Hangat</span>
-    <span class="legend-item" style="background:#3898ff;color:#fff;">27&ndash;30&deg;C &mdash; Sejuk</span>
-    <span class="legend-item" style="background:#00cfff;color:#111;">&lt;27&deg;C &mdash; Dingin</span>
+    <span style="color:#5580a8;">Legenda suhu:</span>
+    <span class="legend-item" style="background:#fde8e8;color:#b02020;border:1px solid #f0b0b0;">&ge;35°C — Sangat Panas</span>
+    <span class="legend-item" style="background:#fff0dd;color:#b06000;border:1px solid #f0c870;">33–35°C — Panas</span>
+    <span class="legend-item" style="background:#fffacc;color:#8a7000;border:1px solid #e0d060;">30–33°C — Hangat</span>
+    <span class="legend-item" style="background:#ddeeff;color:#1252a3;border:1px solid #91c0f0;">27–30°C — Sejuk</span>
+    <span class="legend-item" style="background:#ccf5ff;color:#006888;border:1px solid #70d8f0;">&lt;27°C — Dingin</span>
 </div>
 """, unsafe_allow_html=True)
 
 with st.expander("📋 Ringkasan data semua kecamatan"):
-    df_kec = pd.DataFrame([
-        {
-            "Kecamatan":       k["nama"],
-            "Suhu (°C)":      round(k["suhu"], 1) if k["suhu"] is not None else "N/A",
-            "Kelembaban (%)":  round(k["kelembaban"]) if k["kelembaban"] is not None else "N/A",
-            "Hujan (mm)":      round(k["hujan"], 1) if k["hujan"] is not None else "N/A",
-            "Kondisi":         f'{k["icon"]} {k["kondisi"]}',
-        }
-        for k in kec_weather
-    ])
+    df_kec = pd.DataFrame([{
+        "Kecamatan":      k["nama"],
+        "Suhu (°C)":      round(k["suhu"], 1)    if k["suhu"]       is not None else "N/A",
+        "Kelembaban (%)": round(k["kelembaban"])  if k["kelembaban"] is not None else "N/A",
+        "Hujan (mm)":     round(k["hujan"], 1)   if k["hujan"]      is not None else "N/A",
+        "Kondisi":        f'{k["icon"]} {k["kondisi"]}',
+    } for k in kec_weather])
     st.dataframe(df_kec, use_container_width=True, hide_index=True)
 
-# =========================
-# FOOTER
-# =========================
 st.markdown(
     f'<div class="footer-bar">'
-    f'📍 Kota Depok &middot; {LAT_DEPOK}°S, {LON_DEPOK}°E '
-    f'&middot; Sumber: Open-Meteo API &middot; 11 Kecamatan</div>',
+    f'📍 Kota Depok · {LAT_DEPOK}°S, {LON_DEPOK}°E '
+    f'· Sumber: Open-Meteo API · 11 Kecamatan</div>',
     unsafe_allow_html=True,
 )
