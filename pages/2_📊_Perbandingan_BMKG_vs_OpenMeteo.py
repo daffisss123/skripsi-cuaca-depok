@@ -12,103 +12,78 @@ st.set_page_config(
 )
 
 # =========================
-# STYLE — selaras dengan homepage
+# STYLE
 # =========================
-STYLE = '''
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+STYLE = """
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
 <style>
-html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif; }
-.stApp { background: linear-gradient(160deg, #0d1b2a 0%, #1b2d45 40%, #0f2337 100%); min-height: 100vh; }
-[data-testid="stSidebar"] { background: rgba(10,20,35,0.97) !important; border-right: 1px solid rgba(255,255,255,0.06); }
+html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
+.stApp { background: linear-gradient(150deg, #eef4fb 0%, #ddeaf8 50%, #e8f1fa 100%); min-height: 100vh; }
+[data-testid="stSidebar"] { background: #ffffff !important; border-right: 1px solid #d4e2f0 !important; box-shadow: 2px 0 12px rgba(30,80,160,0.06); }
+[data-testid="stSidebar"] * { color: #2c4a6e !important; }
+header[data-testid="stHeader"] { background: rgba(238,244,251,0.92) !important; backdrop-filter: blur(8px); border-bottom: 1px solid #c8ddf0; }
+header[data-testid="stHeader"]::before { background: transparent !important; }
+header[data-testid="stHeader"] button, header[data-testid="stHeader"] a, header[data-testid="stHeader"] svg { color: #2c4a6e !important; fill: #2c4a6e !important; }
+[data-testid="stDecoration"] { display: none !important; }
 .page-header {
-    background: linear-gradient(135deg, rgba(30,80,160,0.5) 0%, rgba(14,42,90,0.68) 100%);
-    border: 1px solid rgba(100,160,255,0.22); border-radius: 24px;
-    padding: 1.8rem 2.2rem; margin-bottom: 1.8rem;
-    position: relative; overflow: hidden; backdrop-filter: blur(8px);
+    background: linear-gradient(135deg, #1a6bc4 0%, #1252a3 100%);
+    border-radius: 20px; padding: 2rem 2.4rem; margin-bottom: 1.8rem;
+    position: relative; overflow: hidden; box-shadow: 0 8px 32px rgba(26,107,196,0.22);
 }
 .page-header::before {
-    content: ""; position: absolute; top: -60px; right: -60px;
-    width: 240px; height: 240px;
-    background: radial-gradient(circle, rgba(56,152,255,0.14) 0%, transparent 70%);
+    content: ""; position: absolute; top: -80px; right: -80px;
+    width: 300px; height: 300px;
+    background: radial-gradient(circle, rgba(255,255,255,0.12) 0%, transparent 70%);
     border-radius: 50%; pointer-events: none;
 }
 .page-badge {
-    display: inline-block; background: rgba(56,152,255,0.18);
-    border: 1px solid rgba(56,152,255,0.38); color: #7ec8ff;
-    font-size: 0.73rem; font-weight: 600; letter-spacing: 0.09em;
-    text-transform: uppercase; padding: 0.26rem 0.75rem;
-    border-radius: 20px; margin-bottom: 0.7rem;
+    display: inline-block; background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.35); color: #e0f0ff;
+    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase;
+    padding: 0.25rem 0.8rem; border-radius: 20px; margin-bottom: 0.8rem;
 }
-.page-title { font-size: 2rem; font-weight: 800; color: #fff; margin: 0 0 0.4rem 0; letter-spacing: -0.5px; }
-.page-sub { color: #90b8e8; font-size: 0.95rem; margin: 0; line-height: 1.6; max-width: 600px; }
+.page-title { font-size: 2.1rem; font-weight: 800; color: #fff; margin: 0 0 0.4rem; letter-spacing: -0.5px; }
+.page-sub { color: rgba(255,255,255,0.82); font-size: 0.95rem; line-height: 1.65; max-width: 640px; margin: 0; }
 .section-title {
-    font-size: 1.12rem; font-weight: 700; color: #e2f0ff;
-    margin: 1.8rem 0 0.9rem 0; display: flex; align-items: center; gap: 0.5rem;
+    font-size: 1.05rem; font-weight: 700; color: #1a3a5c;
+    margin: 1.8rem 0 0.85rem; display: flex; align-items: center; gap: 0.45rem;
 }
 .section-title::after {
-    content: ""; flex: 1; height: 1px;
-    background: linear-gradient(90deg, rgba(100,160,255,0.28), transparent);
-    margin-left: 0.4rem;
+    content: ""; flex: 1; height: 2px;
+    background: linear-gradient(90deg, #b8d4f0, transparent);
+    margin-left: 0.4rem; border-radius: 2px;
 }
 div[data-testid="stMetric"] {
-    background: rgba(18,48,88,0.55) !important;
-    border: 1px solid rgba(100,160,255,0.18) !important;
-    border-radius: 18px !important; padding: 1.15rem 1rem !important;
-    backdrop-filter: blur(6px); transition: transform 0.2s ease, border-color 0.2s ease;
+    background: #ffffff !important; border: 1px solid #c8ddf0 !important;
+    border-radius: 16px !important; padding: 1.1rem 1rem !important;
+    box-shadow: 0 2px 12px rgba(30,80,160,0.07);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
-div[data-testid="stMetric"]:hover { transform: translateY(-3px); border-color: rgba(100,160,255,0.42) !important; }
-div[data-testid="stMetric"] label { color: #90b8e8 !important; font-size: 0.78rem !important; font-weight: 600 !important; text-transform: uppercase !important; letter-spacing: 0.06em !important; }
-div[data-testid="stMetric"] [data-testid="stMetricValue"] { color: #fff !important; font-size: 1.75rem !important; font-weight: 700 !important; font-family: 'Space Mono', monospace !important; }
-.pred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 0.7rem; margin-top: 0.5rem; }
-.pred-card {
-    background: rgba(18,48,88,0.5); border: 1px solid rgba(100,160,255,0.15);
-    border-radius: 18px; padding: 1.1rem 0.7rem; text-align: center;
-    backdrop-filter: blur(6px); transition: transform 0.2s ease, background 0.2s ease;
-}
-.pred-card:hover { transform: translateY(-4px); background: rgba(28,68,128,0.65); border-color: rgba(100,160,255,0.38); }
-.pred-day { font-size: 0.73rem; font-weight: 700; color: #7ec8ff; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.45rem; }
-.pred-temp { font-size: 1.5rem; font-weight: 800; color: #fff; font-family: 'Space Mono', monospace; margin: 0.3rem 0; }
-.pred-unit { font-size: 0.75rem; color: #90b8e8; font-weight: 600; }
-.pred-label { font-size: 0.7rem; color: #506078; margin-top: 0.3rem; }
+div[data-testid="stMetric"]:hover { transform: translateY(-3px); box-shadow: 0 6px 24px rgba(26,107,196,0.14) !important; }
+div[data-testid="stMetric"] label { color: #5580a8 !important; font-size: 0.76rem !important; font-weight: 600 !important; text-transform: uppercase !important; letter-spacing: 0.06em !important; }
+div[data-testid="stMetric"] [data-testid="stMetricValue"] { color: #0f2d56 !important; font-size: 1.7rem !important; font-weight: 700 !important; font-family: 'Space Mono', monospace !important; }
 .info-card {
-    background: rgba(18,48,88,0.45); border: 1px solid rgba(100,160,255,0.15);
-    border-left: 3px solid #3898ff; border-radius: 12px;
-    padding: 1rem 1.2rem; color: #90b8e8; font-size: 0.88rem;
-    margin-bottom: 0.8rem; line-height: 1.6;
+    background: #e8f3ff; border: 1px solid #b8d4f0; border-left: 4px solid #1a6bc4;
+    border-radius: 12px; padding: 0.9rem 1.2rem; color: #1a3a5c;
+    font-size: 0.88rem; line-height: 1.6; margin-bottom: 1rem;
 }
 .corr-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.2rem; }
 .corr-card {
-    background: rgba(18,48,88,0.5); border: 1px solid rgba(100,160,255,0.18);
-    border-radius: 18px; padding: 1.4rem 1rem; text-align: center;
-    backdrop-filter: blur(6px); transition: transform 0.2s ease;
+    background: #ffffff; border: 1px solid #c8ddf0; border-radius: 18px;
+    padding: 1.4rem 1rem; text-align: center;
+    box-shadow: 0 2px 12px rgba(30,80,160,0.07);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
-.corr-card:hover { transform: translateY(-3px); border-color: rgba(100,160,255,0.38); }
-.corr-label { font-size: 0.78rem; color: #90b8e8; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.5rem; }
-.corr-value { font-size: 2.2rem; font-weight: 800; color: #fff; font-family: 'Space Mono', monospace; }
-.corr-sub { font-size: 0.72rem; color: #506078; margin-top: 0.3rem; }
-.footer-bar { text-align:center; color:#2a4060; font-size:0.8rem; margin-top:2.5rem; padding-top:1rem; border-top:1px solid rgba(100,160,255,0.09); }
-div[data-testid="stExpander"] { background: rgba(18,48,88,0.4) !important; border: 1px solid rgba(100,160,255,0.15) !important; border-radius: 14px !important; }
-div[data-testid="stExpander"] summary { color: #90b8e8 !important; font-weight: 600 !important; }
-[data-testid="stSlider"] label { color: #90b8e8 !important; font-weight: 600 !important; font-size: 0.9rem !important; }
-@media (max-width: 640px) {
-    .page-title { font-size: 1.5rem; }
-    .pred-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); }
-    .corr-row { grid-template-columns: 1fr; }
-    .corr-value { font-size: 1.7rem; }
-}
-/* ---- Header Streamlit (area putih kanan atas) ---- */
-header[data-testid="stHeader"] {
-    background: rgba(13, 27, 42, 0.95) !important;
-    backdrop-filter: blur(8px);
-    border-bottom: 1px solid rgba(100,160,255,0.08);
-}
-header[data-testid="stHeader"]::before { background: transparent !important; }
-header[data-testid="stHeader"] button,
-header[data-testid="stHeader"] a { color: #90b8e8 !important; }
-header[data-testid="stHeader"] svg { fill: #90b8e8 !important; }
-[data-testid="stDecoration"] { display: none !important; }
+.corr-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(26,107,196,0.14); border-color: #91c0f0; }
+.corr-label { font-size: 0.77rem; color: #5580a8; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.5rem; }
+.corr-value { font-size: 2.1rem; font-weight: 800; color: #0f2d56; font-family: 'Space Mono', monospace; }
+.corr-sub { font-size: 0.71rem; color: #9ab8d8; margin-top: 0.3rem; }
+div[data-testid="stExpander"] { background: #ffffff !important; border: 1px solid #c8ddf0 !important; border-radius: 14px !important; box-shadow: 0 2px 8px rgba(30,80,160,0.05); }
+div[data-testid="stExpander"] summary { color: #1a3a5c !important; font-weight: 600 !important; }
+.footer-bar { text-align:center; color:#8aabcc; font-size:0.8rem; margin-top:2.5rem; padding-top:1rem; border-top:1px solid #c8ddf0; }
+@media (max-width: 560px) { .page-title { font-size: 1.5rem; } .corr-row { grid-template-columns: 1fr; } .corr-value { font-size: 1.7rem; } }
 </style>
-'''
+"""
 st.markdown(STYLE, unsafe_allow_html=True)
 
 # =========================
@@ -124,9 +99,11 @@ def load_compare_data():
         df_open["TAVG_openmeteo"] = (
             df_open["temperature_2m_max"] + df_open["temperature_2m_min"]
         ) / 2
-    df_bmkg_k = df_bmkg[["tanggal", "TAVG", "RR"]].copy()
-    df_open_k = df_open[["tanggal", "TAVG_openmeteo", "precipitation_sum"]].copy()
-    df = pd.merge(df_bmkg_k, df_open_k, on="tanggal", how="inner")
+    df = pd.merge(
+        df_bmkg[["tanggal", "TAVG", "RR"]],
+        df_open[["tanggal", "TAVG_openmeteo", "precipitation_sum"]],
+        on="tanggal", how="inner"
+    )
     return df.sort_values("tanggal").reset_index(drop=True)
 
 df_compare = load_compare_data()
@@ -152,7 +129,7 @@ n_data    = len(df_compare)
 tgl_awal  = df_compare["tanggal"].min().strftime("%d %b %Y")
 tgl_akhir = df_compare["tanggal"].max().strftime("%d %b %Y")
 st.markdown(
-    f'<div class="info-card"> '
+    f'<div class="info-card">'
     f'📆 Dataset overlap: <b>{n_data} hari</b> '
     f'({tgl_awal} &ndash; {tgl_akhir})</div>',
     unsafe_allow_html=True,
@@ -178,24 +155,23 @@ st.markdown(
     '<div class="corr-label">🌡️ Korelasi Suhu</div>'
     f'<div class="corr-value">{corr_temp:.3f}</div>'
     '<div class="corr-sub">BMKG TAVG vs Open-Meteo TAVG</div>'
-    f'<div class="corr-sub" style="margin-top:0.4rem;color:#7ec8ff;font-weight:600;">{corr_label(corr_temp)}</div>'
+    f'<div class="corr-sub" style="margin-top:0.4rem;color:#1a6bc4;font-weight:600;">{corr_label(corr_temp)}</div>'
     '</div>'
     '<div class="corr-card">'
     '<div class="corr-label">🌧️ Korelasi Curah Hujan</div>'
     f'<div class="corr-value">{corr_rain:.3f}</div>'
     '<div class="corr-sub">BMKG RR vs Open-Meteo precipitation</div>'
-    f'<div class="corr-sub" style="margin-top:0.4rem;color:#7ec8ff;font-weight:600;">{corr_label(corr_rain)}</div>'
+    f'<div class="corr-sub" style="margin-top:0.4rem;color:#1a6bc4;font-weight:600;">{corr_label(corr_rain)}</div>'
     '</div>'
     '</div>',
     unsafe_allow_html=True,
 )
 
-# Statistik tambahan
 col1, col2, col3, col4 = st.columns(4)
-col1.metric('Rata-rata Suhu BMKG',        f'{df_compare["TAVG"].mean():.1f} °C')
-col2.metric('Rata-rata Suhu Open-Meteo',   f'{df_compare["TAVG_openmeteo"].mean():.1f} °C')
-col3.metric('Rata-rata Hujan BMKG',        f'{df_compare["RR"].mean():.1f} mm')
-col4.metric('Rata-rata Hujan Open-Meteo',  f'{df_compare["precipitation_sum"].mean():.1f} mm')
+col1.metric('Rata-rata Suhu BMKG',       f'{df_compare["TAVG"].mean():.1f} °C')
+col2.metric('Rata-rata Suhu Open-Meteo', f'{df_compare["TAVG_openmeteo"].mean():.1f} °C')
+col3.metric('Rata-rata Hujan BMKG',      f'{df_compare["RR"].mean():.1f} mm')
+col4.metric('Rata-rata Hujan Open-Meteo',f'{df_compare["precipitation_sum"].mean():.1f} mm')
 
 # =========================
 # GRAFIK SUHU
@@ -203,11 +179,10 @@ col4.metric('Rata-rata Hujan Open-Meteo',  f'{df_compare["precipitation_sum"].me
 st.markdown('<div class="section-title">🌡️ Perbandingan Suhu Rata-rata Harian</div>', unsafe_allow_html=True)
 chart_suhu = (
     df_compare[["tanggal", "TAVG", "TAVG_openmeteo"]]
-    .copy()
-    .set_index("tanggal")
+    .copy().set_index("tanggal")
     .rename(columns={"TAVG": "BMKG", "TAVG_openmeteo": "Open-Meteo"})
 )
-st.line_chart(chart_suhu, color=["#ff8c00", "#3898ff"])
+st.line_chart(chart_suhu, color=["#e07800", "#1a6bc4"])
 
 # =========================
 # GRAFIK HUJAN
@@ -215,11 +190,10 @@ st.line_chart(chart_suhu, color=["#ff8c00", "#3898ff"])
 st.markdown('<div class="section-title">🌧️ Perbandingan Curah Hujan Harian</div>', unsafe_allow_html=True)
 chart_hujan = (
     df_compare[["tanggal", "RR", "precipitation_sum"]]
-    .copy()
-    .set_index("tanggal")
+    .copy().set_index("tanggal")
     .rename(columns={"RR": "BMKG", "precipitation_sum": "Open-Meteo"})
 )
-st.line_chart(chart_hujan, color=["#ff8c00", "#3898ff"])
+st.line_chart(chart_hujan, color=["#e07800", "#1a6bc4"])
 
 # =========================
 # TABEL DATA TERBARU
